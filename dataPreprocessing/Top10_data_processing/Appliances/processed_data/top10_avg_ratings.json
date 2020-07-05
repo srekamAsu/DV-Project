@@ -1,0 +1,866 @@
+{
+    "Jan": {
+        "B01DJFFT62": {
+            "title": "IceSurrender Frozen Water Line Tool",
+            "avg_ratings": 5.0,
+            "num_ratings": 28,
+            "brand": "IceSurrender",
+            "sub_categories": null
+        },
+        "B013J8CLLU": {
+            "title": "GE DW Pack WD35X21041 Dishwasher Lower Rack Kit 8 P",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00DM8JL4I": {
+            "title": "General Electric WH49X10042 Washer Agitator Coupling Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00DM8L1C8": {
+            "title": "Whirlpool 12002535 Wax Motor Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B006P7B2KY": {
+            "title": "OEM GE Dishwasher Dishrack Roller Stud WD12X10277 (4 pack)",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B006E7X19A": {
+            "title": "SAMSUNG Assembly GUARD REF-R; AW2 - Part Number: DA97-06419C",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Samsung",
+            "sub_categories": null
+        },
+        "B005AR7WZY": {
+            "title": "Whirlpool W10144820 Valve for Washer",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B004XLEK3U": {
+            "title": "Whirlpool W10321304 Bin for Refrigerator",
+            "avg_ratings": 5.0,
+            "num_ratings": 25,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00132IPBU": {
+            "title": "KitchenAid Continuous Feed Garbage Disposal",
+            "avg_ratings": 5.0,
+            "num_ratings": 28,
+            "brand": "KitchenAid",
+            "sub_categories": null
+        },
+        "B01CC7IVD6": {
+            "title": "Waterdrop NSF 53&42 Certified Refrigerator Water Filter, Compatible with LG LT700P, ADQ36006101, KENMORE 469690, 9690, ADQ36006102, Advanced, Pack of 2",
+            "avg_ratings": 4.975,
+            "num_ratings": 40,
+            "brand": "Waterdrop",
+            "sub_categories": null
+        }
+    },
+    "Feb": {
+        "B01HDZ4OOM": {
+            "title": "715877 - Jenn-Air 6\" Genuine OEM Stove Range Oven Drip Bowl Pan",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Jenn Air",
+            "sub_categories": null
+        },
+        "B01GAAJJ6E": {
+            "title": "Waterdrop UKF8001 NSF 401&53&42 Certified Refrigerator Water Filter, Compatible with Maytag UKF8001, UKF8001AXX, UKF8001P, Whirlpool 4396395, 469006, Filter 4, Puriclean II",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Waterdrop",
+            "sub_categories": null
+        },
+        "B01FZJXITU": {
+            "title": "Replacement Part for 279834 Dryer Gas Coil Kit - Valve Ignition Solenoid For Dryers Premium Parts",
+            "avg_ratings": 5.0,
+            "num_ratings": 25,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        },
+        "B013NQB3EE": {
+            "title": "Kenmore Elite 9918 Refrigerator Air Filter, 2 pack",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "Kenmore",
+            "sub_categories": null
+        },
+        "B00E0CVZQC": {
+            "title": "Frigidaire 316207511 Control Board",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Frigidaire",
+            "sub_categories": null
+        },
+        "B0006GVNOA": {
+            "title": "Gardus RLE202 LintEater Rotary Dryer Vent Cleaning System",
+            "avg_ratings": 5.0,
+            "num_ratings": 204,
+            "brand": "LintEater",
+            "sub_categories": null
+        },
+        "B01CC7LSF4": {
+            "title": "Waterdrop NSF 53&42 Certified Refrigerator Water Filter, Compatible with LG LT800P, ADQ73613401, Kenmore 9490, 46-9490, 469490, ADQ73613402, Advanced, Pack of 2",
+            "avg_ratings": 4.958333333333333,
+            "num_ratings": 24,
+            "brand": "Waterdrop",
+            "sub_categories": null
+        },
+        "B017Q12A62": {
+            "title": "Insinkerator 75257 Magnetic Stopper",
+            "avg_ratings": 4.954545454545454,
+            "num_ratings": 22,
+            "brand": "essie",
+            "sub_categories": null
+        },
+        "B004XLDEAU": {
+            "title": "Whirlpool 279834 Valve Coil for Dryer",
+            "avg_ratings": 4.954545454545454,
+            "num_ratings": 22,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B01GAAJJ6O": {
+            "title": "Waterdrop UKF8001 NSF 401&53&42 Certified Refrigerator Water Filter, Compatible with Maytag UKF8001, UKF8001AXX, UKF8001P, Whirlpool 4396395, 469006, Filter 4, Puriclean II, Pack of 2",
+            "avg_ratings": 4.95,
+            "num_ratings": 20,
+            "brand": "Waterdrop",
+            "sub_categories": null
+        }
+    },
+    "Mar": {
+        "B01FZJXITU": {
+            "title": "Replacement Part for 279834 Dryer Gas Coil Kit - Valve Ignition Solenoid For Dryers Premium Parts",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        },
+        "B01AQHT2BO": {
+            "title": "Samsung DA97-08519A Assembly Lever-Dispenser",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": "Samsung",
+            "sub_categories": null
+        },
+        "B00TUFJMSW": {
+            "title": "Range Kleen 5082 4-Pack Paris Café Round Burner Kover Set, 8.5 Inches and 10.5 Inches",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Range Kleen",
+            "sub_categories": null
+        },
+        "B00DM8JA8A": {
+            "title": "Whirlpool 74003019 Bake Element",
+            "avg_ratings": 5.0,
+            "num_ratings": 26,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00D8G49D2": {
+            "title": "OEM Genuine Factory Whirlpool Kenmore Sears Roper Estate Maytag Clothes Dryer Heating Element 279838",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00AF7U1CU": {
+            "title": "LG Electronics 5231EL1001C Dryer Lint Filter Assembly",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B0050KJJWK": {
+            "title": "Whirlpool Part Number 3949237: Switch, Lid",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B001PAWUWK": {
+            "title": "Frigidaire 134051200 Drain Pump",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": "Frigidaire",
+            "sub_categories": null
+        },
+        "B0006GVNOA": {
+            "title": "Gardus RLE202 LintEater Rotary Dryer Vent Cleaning System",
+            "avg_ratings": 5.0,
+            "num_ratings": 408,
+            "brand": "LintEater",
+            "sub_categories": null
+        },
+        "B005AR8KDM": {
+            "title": "Whirlpool W10158389 Water Valve for Dishwasher",
+            "avg_ratings": 4.972222222222222,
+            "num_ratings": 36,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        }
+    },
+    "Apr": {
+        "B01G4T47UY": {
+            "title": "AQUACREST Replacement UKF8001 Refrigerator Water Filter, Compatible with Maytag UKF8001 UKF8001AXX UKF8001P, PUR Jenn-Air UKF8001,4396395, 469006, Filter 4(Package May Vary)",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "AQUA CREST",
+            "sub_categories": null
+        },
+        "B00VO0723S": {
+            "title": "Whirlpool 715878 Cooktop Drip Pan Set",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00LQDAJ1U": {
+            "title": "LG 4581EL2002C Roller Assembly",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B00HT39LEM": {
+            "title": "Tier1 Replacement for Frigidaire WF1CB PureSource, WFCB, RG100, WF284, NGR2000, Kenmore 469906, 469910 Refrigerator Water Filter",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Tier1",
+            "sub_categories": null
+        },
+        "B00FFT4LDI": {
+            "title": "Part # 279838 or 398064 or 3403585 Genuine Factory Oem Original Clothes Dryer Heater Heating Element for Whirlpool, Maytag, Kenmore, Roper, Estate, Sears and Admiral.",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00DM8LAI8": {
+            "title": "Whirlpool 285809 Short Cam Agitator Repair Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B01G4W95VC": {
+            "title": "AQUACREST Replacement MWF Refrigerator Water Filter, Compatible with GE MWF SmartWater, MWFA, MWFP, GWF, GWFA, 46-9991, HDX FMG-1, WFC1201, GSE25GSHECSS, PC75009, RWF1060 (Pack of 3)",
+            "avg_ratings": 4.958333333333333,
+            "num_ratings": 24,
+            "brand": "AQUA CREST",
+            "sub_categories": null
+        },
+        "B01CKGBHU8": {
+            "title": "Dish Doggy Clean Dirty Dishwasher Magnet Sign - A Fun & Stylish Clean Dirty Dishwasher Sign Gift with 2 Different Fun Sides for Dog Lovers to Eliminate Dish Mix-ups Forever",
+            "avg_ratings": 4.954545454545454,
+            "num_ratings": 22,
+            "brand": "Wine Chuckle",
+            "sub_categories": null
+        },
+        "B00QFVF3IC": {
+            "title": "EcoAqua WF1CB-EFF-3PK Replacement for Frigidaire WFCB/WF1CB, 3-Pack",
+            "avg_ratings": 4.954545454545454,
+            "num_ratings": 22,
+            "brand": "EcoAqua",
+            "sub_categories": null
+        },
+        "B013J8CLLU": {
+            "title": "GE DW Pack WD35X21041 Dishwasher Lower Rack Kit 8 P",
+            "avg_ratings": 4.9523809523809526,
+            "num_ratings": 21,
+            "brand": "GE",
+            "sub_categories": null
+        }
+    },
+    "May": {
+        "B01G4XRT0K": {
+            "title": "AQUACREST Refrigerator Water Filter, Compatible with LG LT800P, ADQ73613401, ADQ73613402, Kenmore 9490, 46-9490 (Pack of 3)",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "AQUA CREST",
+            "sub_categories": null
+        },
+        "B01FZJXITU": {
+            "title": "Replacement Part for 279834 Dryer Gas Coil Kit - Valve Ignition Solenoid For Dryers Premium Parts",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        },
+        "B01DJFFT62": {
+            "title": "IceSurrender Frozen Water Line Tool",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": "IceSurrender",
+            "sub_categories": null
+        },
+        "B013J8CLLU": {
+            "title": "GE DW Pack WD35X21041 Dishwasher Lower Rack Kit 8 P",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00OMR0RJQ": {
+            "title": "General Electric WE01X20374 Dryer Timer Knob Assembly. White",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00D8G49D2": {
+            "title": "OEM Genuine Factory Whirlpool Kenmore Sears Roper Estate Maytag Clothes Dryer Heating Element 279838",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B005AR7WZY": {
+            "title": "Whirlpool W10144820 Valve for Washer",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B01CKGBHU8": {
+            "title": "Dish Doggy Clean Dirty Dishwasher Magnet Sign - A Fun & Stylish Clean Dirty Dishwasher Sign Gift with 2 Different Fun Sides for Dog Lovers to Eliminate Dish Mix-ups Forever",
+            "avg_ratings": 4.9655172413793105,
+            "num_ratings": 29,
+            "brand": "Wine Chuckle",
+            "sub_categories": null
+        },
+        "B005AR8KDM": {
+            "title": "Whirlpool W10158389 Water Valve for Dishwasher",
+            "avg_ratings": 4.958333333333333,
+            "num_ratings": 24,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B01E9FRMI4": {
+            "title": "Refresh Replacement for Kenmore 46-9918, 9918, 469918, ADQ73214402, ADQ73214404 and LG LT120F Refrigerator Air Filter (3-Pack)",
+            "avg_ratings": 4.9523809523809526,
+            "num_ratings": 21,
+            "brand": "Refresh",
+            "sub_categories": null
+        }
+    },
+    "Jun": {
+        "B01FZJXITU": {
+            "title": "Replacement Part for 279834 Dryer Gas Coil Kit - Valve Ignition Solenoid For Dryers Premium Parts",
+            "avg_ratings": 5.0,
+            "num_ratings": 27,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        },
+        "B013J8CLLU": {
+            "title": "GE DW Pack WD35X21041 Dishwasher Lower Rack Kit 8 P",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00MNOQ8OS": {
+            "title": "GE  WD28X10177 Dishwasher Silverware Basket",
+            "avg_ratings": 5.0,
+            "num_ratings": 25,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00LQDA384": {
+            "title": "Whirlpool W10225581 Defrost Bimetal",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00BL4K69O": {
+            "title": "Samsung DC96-00882C Dryer Idler Bracket Assembly",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "Samsung",
+            "sub_categories": null
+        },
+        "B005AR8KDM": {
+            "title": "Whirlpool W10158389 Water Valve for Dishwasher",
+            "avg_ratings": 5.0,
+            "num_ratings": 32,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00563S5YE": {
+            "title": "7014646 OEM Sub Zero Refrigerator Light Switch",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Supco",
+            "sub_categories": null
+        },
+        "B000BQ7WE0": {
+            "title": "InSinkErator WRN-00 Wrenchette, One Size, Silver",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "InSinkErator",
+            "sub_categories": null
+        },
+        "B01CKGBHU8": {
+            "title": "Dish Doggy Clean Dirty Dishwasher Magnet Sign - A Fun & Stylish Clean Dirty Dishwasher Sign Gift with 2 Different Fun Sides for Dog Lovers to Eliminate Dish Mix-ups Forever",
+            "avg_ratings": 4.944444444444445,
+            "num_ratings": 18,
+            "brand": "Wine Chuckle",
+            "sub_categories": null
+        },
+        "B01AZXTBPG": {
+            "title": "Maytag UKF8001 Pur Compatible Water Filter by Dista Filter - 2-Pack",
+            "avg_ratings": 4.9411764705882355,
+            "num_ratings": 17,
+            "brand": "Dista",
+            "sub_categories": null
+        }
+    },
+    "Jul": {
+        "B00DM8LECK": {
+            "title": "General Electric WR02X11330 Connector Unit, Silver",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "GE",
+            "sub_categories": null
+        },
+        "B00DM8JA8A": {
+            "title": "Whirlpool 74003019 Bake Element",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B001PIAPP6": {
+            "title": "Whirlpool Part Number 308180: Unit, Bake (240V) (Alt.)",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00E0CWKXE": {
+            "title": "Nelipo NE-01 Air Filter, 2-Pack",
+            "avg_ratings": 4.962962962962963,
+            "num_ratings": 27,
+            "brand": "Nelipo",
+            "sub_categories": null
+        },
+        "B00LQDJQGE": {
+            "title": "ERP 3406107 Dryer Door Switch",
+            "avg_ratings": 4.958333333333333,
+            "num_ratings": 24,
+            "brand": "ERP",
+            "sub_categories": null
+        },
+        "B01CKG82ME": {
+            "title": "Dish Butler Dishwasher Magnet Sign - A Fun & Stylish Clean Dirty Dishwasher Sign Gift with 2 Different Fun Sides for Wine Lovers to Eliminate Those Dish Mix-ups Forever",
+            "avg_ratings": 4.95,
+            "num_ratings": 20,
+            "brand": "Wine Chuckle",
+            "sub_categories": null
+        },
+        "B005ARC2E0": {
+            "title": "Whirlpool W10185972 Timer for Dryer",
+            "avg_ratings": 4.947368421052632,
+            "num_ratings": 19,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00IEDHJFE": {
+            "title": "LG LT120F Replacement Refrigerator Air Filter, Pack of 3",
+            "avg_ratings": 4.944444444444445,
+            "num_ratings": 18,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B0050O2I9M": {
+            "title": "Whirlpool 8562043 Silverware Basket for Dish Washer",
+            "avg_ratings": 4.944444444444445,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00OL1CIOA": {
+            "title": "GE Dryer Bearing Kit 1 Bearing WE3M26, 2 Dryer Slides WE1M481 / WE1M1067, 2 Dryer Slides WE1M333 / WE1M504, 1 Belt WE12M29, 1 Felt WE9M30 / WE09X20441",
+            "avg_ratings": 4.9375,
+            "num_ratings": 16,
+            "brand": "GE",
+            "sub_categories": null
+        }
+    },
+    "Aug": {
+        "B013TI7A4S": {
+            "title": "MagVent MV-90 Magnetic Dryer Vent Coupling",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "MagVent",
+            "sub_categories": null
+        },
+        "B012IX4FJ8": {
+            "title": "Duet Washer Water Pump Motor Mod: M75 461970201671 Compatible for Whirlpool,Kenmore,Maytag Only Motor, 4 Blades included, Same block Terminal, Rrubber Ring Included",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Femitu",
+            "sub_categories": null
+        },
+        "B00PKI77GC": {
+            "title": "GE WE49X20697 Dryer Bearing Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "GENERAL ELECTRIC",
+            "sub_categories": null
+        },
+        "B00HT39JM6": {
+            "title": "Tier1 Replacement for Samsung DA29-00020B, DA29-00020A, HAFCIN/EXP, HAFCIN, 46-9101, DA97-08006A-B Refrigerator Water Filter",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Tier1",
+            "sub_categories": null
+        },
+        "B00DM8JBZW": {
+            "title": "Whirlpool 279570 Dryer Door Latch Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00DM8L18C": {
+            "title": "Frigidaire 5304461262 Dryer Maintenance Kit",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Frigidaire",
+            "sub_categories": null
+        },
+        "B00DM8JFFS": {
+            "title": "Whirlpool 308180 Bake Element",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00D8G49D2": {
+            "title": "OEM Genuine Factory Whirlpool Kenmore Sears Roper Estate Maytag Clothes Dryer Heating Element 279838",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00AUDAF5M": {
+            "title": "LG Electronics 5220FR2008F Washing Machine Water Inlet and Dispenser Valve",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B00AFSMOXS": {
+            "title": "LG Electronics 3891ER2003A Washer Liquid Detergent Container Assembly, Light Blue",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "LG",
+            "sub_categories": null
+        }
+    },
+    "Sep": {
+        "B01DJFFT62": {
+            "title": "IceSurrender Frozen Water Line Tool",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "IceSurrender",
+            "sub_categories": null
+        },
+        "B01CC87G86": {
+            "title": "Waterdrop Refrigerator Water Filter, Compatible with WF1CB, WFCB, RG100, NGRG2000, WF284, 9910, 469906, 469910, Pack of 3",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Waterdrop",
+            "sub_categories": null
+        },
+        "B0195UW9L8": {
+            "title": "3363394 WHIRLPOOL Washer water pump assembly",
+            "avg_ratings": 5.0,
+            "num_ratings": 32,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B018A2W5J8": {
+            "title": "Rangehood Light Lens For Broan 41000 Models - 99110437",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Broan",
+            "sub_categories": null
+        },
+        "B00LNG9YO8": {
+            "title": "Decko Outdoor 30252 Heavy Duty Double Beverage Holder, White/Black, 2-Pack",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "Decko OutDoor",
+            "sub_categories": null
+        },
+        "B00IVO8478": {
+            "title": "80040 - Original Factory OEM Washer Agitator Dog (4 Pack) Roper Estate",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00C7MWQS8": {
+            "title": "Certified Appliance MO154 90-1028 3-wire Dryer Cord (10ft)",
+            "avg_ratings": 5.0,
+            "num_ratings": 28,
+            "brand": "Certified Appliance",
+            "sub_categories": null
+        },
+        "B000YRA2R0": {
+            "title": "Certified Appliance Accessories Braided Stainless Steel Ice Maker Connector, 15ft",
+            "avg_ratings": 5.0,
+            "num_ratings": 48,
+            "brand": "Certified Appliance Accessories",
+            "sub_categories": null
+        },
+        "B000VLI74Y": {
+            "title": "Venta 1000535 Airwasher Demineralization Replacement Cartridge",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Venta",
+            "sub_categories": null
+        },
+        "B01FZJXITU": {
+            "title": "Replacement Part for 279834 Dryer Gas Coil Kit - Valve Ignition Solenoid For Dryers Premium Parts",
+            "avg_ratings": 4.982758620689655,
+            "num_ratings": 58,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        }
+    },
+    "Oct": {
+        "B00VAOP3DE": {
+            "title": "Samsung 6602-001655 Dryer Belt",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Samsung",
+            "sub_categories": null
+        },
+        "B00NLWBWEM": {
+            "title": "BUBBLEBAGDUDE Bubble Bags Machine 5 Gallon Small Mini Compact Washer Extracting Mini Washing Machine with 220 micron Zipper Bag Herbal Extractor",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": "BUBBLEBAGDUDE",
+            "sub_categories": null
+        },
+        "B00IVO8478": {
+            "title": "80040 - Original Factory OEM Washer Agitator Dog (4 Pack) Roper Estate",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B005OOZAZ2": {
+            "title": "Whirlpool W10308477 Bake Element for Range",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00563S5YE": {
+            "title": "7014646 OEM Sub Zero Refrigerator Light Switch",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Supco",
+            "sub_categories": null
+        },
+        "B00P9C66PM": {
+            "title": "285785 Washer Clutch Kit For Whirlpool Kenmore Sears Roper Estate Kitchenaid",
+            "avg_ratings": 4.964285714285714,
+            "num_ratings": 28,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B016CWRL3S": {
+            "title": "LG LT120F-2PK Fresh Air Filter (2 Pack)",
+            "avg_ratings": 4.962962962962963,
+            "num_ratings": 27,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B01GRKQA0K": {
+            "title": "House of Habitat Oven Liners 3-Pack, Large",
+            "avg_ratings": 4.958333333333333,
+            "num_ratings": 24,
+            "brand": "House of Habitat",
+            "sub_categories": null
+        },
+        "B0190U4T1Q": {
+            "title": "InterDesign Refrigerator, Freezer and Kitchen Storage Organizer Bins, 4 Piece Set - Clear",
+            "avg_ratings": 4.954545454545454,
+            "num_ratings": 22,
+            "brand": "InterDesign",
+            "sub_categories": null
+        },
+        "B00FE6LQRG": {
+            "title": "285753A Genuine Whirlpool Heavy Duty Clothes Washer Washing Machine Motor Couplers",
+            "avg_ratings": 4.9523809523809526,
+            "num_ratings": 21,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        }
+    },
+    "Nov": {
+        "B01FZKSRO0": {
+            "title": "3390719 Thermal Fuse Replacement Part- For Dryer Premium Part",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "DR Quality Parts",
+            "sub_categories": null
+        },
+        "B01DJFFT62": {
+            "title": "IceSurrender Frozen Water Line Tool",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "IceSurrender",
+            "sub_categories": null
+        },
+        "B00AUDAEMQ": {
+            "title": "LG Electronics 5220FR2006H Washing Machine Hot Wat",
+            "avg_ratings": 5.0,
+            "num_ratings": 29,
+            "brand": "LG",
+            "sub_categories": null
+        },
+        "B005BNN3C8": {
+            "title": "Whirlpool W10083957 Chopper Assembly for Dishwasher",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B0050KJJWK": {
+            "title": "Whirlpool Part Number 3949237: Switch, Lid",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B001TIUNI6": {
+            "title": "Supco ES18806 Light Switch",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": "Supco",
+            "sub_categories": null
+        },
+        "B0006GVNOA": {
+            "title": "Gardus RLE202 LintEater Rotary Dryer Vent Cleaning System",
+            "avg_ratings": 5.0,
+            "num_ratings": 204,
+            "brand": "LintEater",
+            "sub_categories": null
+        },
+        "B005AR75A6": {
+            "title": "Whirlpool W10130695 Latch Assembly for Dishwasher",
+            "avg_ratings": 4.9787234042553195,
+            "num_ratings": 47,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B013P47758": {
+            "title": "Kenmore Elite 9918 Refrigerator Air Filter",
+            "avg_ratings": 4.96969696969697,
+            "num_ratings": 33,
+            "brand": "Kenmore",
+            "sub_categories": null
+        },
+        "B00A8O03LE": {
+            "title": "Whirlpool W10404050 Latch Assembly",
+            "avg_ratings": 4.964285714285714,
+            "num_ratings": 28,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        }
+    },
+    "Dec": {
+        "B01DJFFT62": {
+            "title": "IceSurrender Frozen Water Line Tool",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": "IceSurrender",
+            "sub_categories": null
+        },
+        "B0156NJ4Z2": {
+            "title": "FRIGIDAIRE 297370600 Electronic Control",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Frigidaire",
+            "sub_categories": null
+        },
+        "B00IVO8478": {
+            "title": "80040 - Original Factory OEM Washer Agitator Dog (4 Pack) Roper Estate",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00C7MWQS8": {
+            "title": "Certified Appliance MO154 90-1028 3-wire Dryer Cord (10ft)",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "Certified Appliance",
+            "sub_categories": null
+        },
+        "B0053F9LCK": {
+            "title": "Whirlpool 8183202 Hinge for Washing Machine",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00LHR20E4": {
+            "title": "Whirlpool 8531233  Silverware Basket",
+            "avg_ratings": 4.970588235294118,
+            "num_ratings": 34,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B001PIAPP6": {
+            "title": "Whirlpool Part Number 308180: Unit, Bake (240V) (Alt.)",
+            "avg_ratings": 4.962962962962963,
+            "num_ratings": 27,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B00I3K15O4": {
+            "title": "8565582 - HEAVY DUTY CLOTHES DRYER HEATING ELEMENT FOR WHIRLPOOL, KENMORE, SEARS, MAYTAG, AMANA, ADMIRAL, KITCHENAID, MAGIC CHEF, NORGE (Priority Mail Available)",
+            "avg_ratings": 4.95,
+            "num_ratings": 20,
+            "brand": "Napco",
+            "sub_categories": null
+        },
+        "B00DZU7DT8": {
+            "title": "Whirlpool 675186 Trash Bags, 12-Pack",
+            "avg_ratings": 4.944444444444445,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        },
+        "B0053F9CME": {
+            "title": "Whirlpool 8182634 Latch for Washer",
+            "avg_ratings": 4.944444444444445,
+            "num_ratings": 18,
+            "brand": "Whirlpool",
+            "sub_categories": null
+        }
+    }
+}

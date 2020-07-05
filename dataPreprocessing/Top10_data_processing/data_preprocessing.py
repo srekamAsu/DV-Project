@@ -118,7 +118,7 @@ def fashion_data_processing():
 
 
 def all_beauty_data_processing():
-    all_beauty_bad_asin = []
+    all_beauty_bad_asin = ['B001V9FPHM']
 
     meta_data_processing('All_Beauty/raw_data/meta_All_Beauty.json.gz', 'All_Beauty/raw_data/meta_data.json')
     processed_meta_data = json.loads(open('All_Beauty/raw_data/meta_data.json').read())
@@ -129,9 +129,22 @@ def all_beauty_data_processing():
                             all_beauty_bad_asin)
 
 
+def applications_data_processing():
+    applications_bad_asin = ['B0014CN8Y8', 'B002MPLYEW']
+
+    meta_data_processing('Appliances/raw_data/meta_Appliances.json.gz', 'Appliances/raw_data/meta_data.json')
+    processed_meta_data = json.loads(open('Appliances/raw_data/meta_data.json').read())
+    ratings_dic = load_ratings_data('Appliances/raw_data/Appliances.csv')
+    top10_avg_ratings_data(ratings_dic, processed_meta_data, 'Appliances/processed_data/top10_avg_ratings.json',
+                           applications_bad_asin)
+    top10_most_ratings_data(ratings_dic, processed_meta_data, 'Appliances/processed_data/top10_most_ratings.json',
+                            applications_bad_asin)
+
+
 def main():
     # fashion_data_processing()
-    all_beauty_data_processing()
+    # all_beauty_data_processing()
+    applications_data_processing()
 
 
 if __name__ == "__main__":
