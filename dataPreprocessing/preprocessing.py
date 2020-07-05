@@ -3,7 +3,7 @@ import gzip
 
 Test = False
 false = False
-true= True
+true = True
 
 def parse(path):
   g = gzip.open(path, 'r')
@@ -157,9 +157,26 @@ def fashionDataExtraction():
     print(len(productReviews), " is prodcuts length")
     readMetaData(fashionMetaFileName, fashion_brand, productReviews)
 
+def beautyDataExtraction():
+    beautyFileName = "../RawData/All_Beauty.json.gz"
+    beautyMetaFileName = "../RawData/meta_All_Beauty.json.gz"
+    beautyOutputFile = "../data/beauty.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is beauty prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+
+def appliancesDataExtraction():
+    beautyFileName = "../RawData/Appliances.json.gz"
+    beautyMetaFileName = "../RawData/meta_Appliances.json.gz"
+    beautyOutputFile = "../data/appliances.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
 
 def main():
-    fashionDataExtraction()
+    beautyDataExtraction()
+    appliancesDataExtraction()
 
 
 if __name__ == "__main__":

@@ -20,6 +20,8 @@ window.onload = function() {
             return;
         }
         totalCurrentData = data["category"];
+        totalBrandData = data["brands"];
+        console.log(totalBrandData);
         bubbleVisualization(data["category"], "category")
     });
 };
@@ -116,7 +118,6 @@ function bubbleVisualization(data, type) {
                 .duration(500)
                 .style("cursor", "pointer")
                 .attr("width", 60)
-            addNetworkGraphs(d, type);
             tooltip.html("<span>" + d.data.key + " present in " + parseInt(d.data.value.data.count) + " answers " + "</span>")
             tooltip.style("top", (d3.event.pageY - 20) + "px").style("left", (d3.event.pageX + 20) + "px").style("display", "block").style("opacity", "1");
         })
