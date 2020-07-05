@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Over All Search</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/overall.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Amazon Review Hub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a id="most-sells" href="index.html">Most Sells Product </a>
+          </li>
+          <li class="nav-item">
+            <a id="most-ratings" href="index.html">Most Ratings Product </a>
+          </li>
+          <li class="nav-item">
+            <a id="top-ratings" href="index.html">Top Ratings Product </a>
+          </li>
+          <li>
+            <a id="overall" href="overall.html">Overall</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row hello">
+
+    </div>
+    <div class="row">
+      <div class="col make-center">
+        <br>
+        <br>
+        <div>
+          <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="Search Category" aria-label="Search">
+        </div>
+        <script type="text/javascript" src="js/bubbleChart.js"></script>
+        <br>
+        <div id="bubble-container"></div>
+      </div>
+      <div class="col">
+        <div class="heading Brand-heading">Category Relation</div>
+        <div class="row" style="height:45%; border: 1px solid black;">
+          <div class="col-md-3">
+            <svg class="brand-barchart"></svg>
+          </div>
+        </div>
+        <div class="heading Brand-heading">Brand Relation</div>
+        <div class="row" style="height:45%; border: 1px solid black;">
+          <div class="col-md-3">
+            <svg class="brand-timeseries"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
