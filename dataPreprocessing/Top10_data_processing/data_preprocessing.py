@@ -23,7 +23,7 @@ def meta_data_processing(meta_data_path, out_path):
             except:
                 brand = None
             try:
-                sub_categories = review['categories']
+                sub_categories = review['category']
             except:
                 sub_categories = None
             if asin not in meta_data_dic:
@@ -141,10 +141,25 @@ def applications_data_processing():
                             applications_bad_asin)
 
 
+def arts_crafts_sewing_data_processing():
+    all_beauty_bad_asin = ['B001V9FPHM']
+
+    meta_data_processing('Arts_Crafts_Sewing/raw_data/meta_Arts_Crafts_and_Sewing.json.gz',
+                         'Arts_Crafts_Sewing/raw_data/meta_data.json')
+    processed_meta_data = json.loads(open('Arts_Crafts_Sewing/raw_data/meta_data.json').read())
+    ratings_dic = load_ratings_data('Arts_Crafts_Sewing/raw_data/Arts_Crafts_and_Sewing.csv')
+    top10_avg_ratings_data(ratings_dic, processed_meta_data, 'Arts_Crafts_Sewing/processed_data/top10_avg_ratings.json',
+                           all_beauty_bad_asin)
+    top10_most_ratings_data(ratings_dic, processed_meta_data,
+                            'Arts_Crafts_Sewing/processed_data/top10_most_ratings.json',
+                            all_beauty_bad_asin)
+
+
 def main():
     # fashion_data_processing()
     # all_beauty_data_processing()
-    applications_data_processing()
+    # applications_data_processing()
+    arts_crafts_sewing_data_processing()
 
 
 if __name__ == "__main__":
