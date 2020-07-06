@@ -52,25 +52,45 @@
           <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="Search Category" aria-label="Search">
         </div>
         <script type="text/javascript" src="js/bubbleChart.js"></script>
+        <script type="text/javascript" src="js/barChart.js"></script>
+        <script type="text/javascript" src="js/drawLineChart.js"></script>
         <br>
         <div id="bubble-container"></div>
       </div>
       <div class="col">
-        <div class="heading Brand-heading">Category Relation</div>
-        <div class="row" style="height:45%; border: 1px solid black;">
+        <div class="heading Brand-heading">Top Brands</div>
+        <div class="row " style="height:45%; border: 1px solid black;">
           <div class="col-md-3">
-            <svg class="brand-barchart"></svg>
+            <svg id="brand-barchart"></svg>
           </div>
         </div>
-        <div class="heading Brand-heading">Brand Relation</div>
-        <div class="row" style="height:45%; border: 1px solid black;">
+        <div class="heading Brand-heading">Time Trend Analysis</div>
+        <div class="row" style="height:50%; border: 1px solid black;">
           <div class="col-md-3">
-            <svg class="brand-timeseries"></svg>
+            <svg id="brand-timeseries"></svg>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="popup-overlay">
+   <div id="close">X</div>
+   <div id = "popup">
+      <div id="popUpWindow">
+         <div class="row" style="width: auto; border: 1px solid black;">
+            <div class="" >
+               <svg id="sublineChart"></svg>
+            </div>
+         </div>
+         <div class="row" style="width: auto; border: 1px solid black;">
+            <div class="" >
+               <svg id="subCategory-barChart"></svg>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 </body>
 
 </html>

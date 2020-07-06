@@ -5,3 +5,41 @@
 a {
   padding-right: 20px;
 }
+
+.tooltip {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	height: auto;
+	background-color: #ABEBC6;
+	border-radius: 10px;
+	color: black;
+	padding: 6px 12px;
+	z-index: 3;
+}
+
+
+.tooltip span {
+	display: block;
+	text-align: center;
+	width: 150 px;
+	height: auto;
+	margin: 5px auto;
+}
+
+
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 3;
+}
+
+
+.dot {
+	fill: steelblue;
+	stroke: #000000;
+}
+
+.focus circle {
+	fill: none;
+}
