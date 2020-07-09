@@ -1,0 +1,866 @@
+{
+    "Jan": {
+        "B00HUEXVL4": {
+            "title": "Break Every Chain",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01AZG4SPG": {
+            "title": "Writing's on the Wall",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 33,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B014FO6H5S": {
+            "title": "Die A Happy Man",
+            "avg_ratings": 5.0,
+            "num_ratings": 30,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YD3YK4M": {
+            "title": "Ego Death [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00XO2XOMM": {
+            "title": "Urban Flora",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00V07DOUK": {
+            "title": "Mister Asylum [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00U0YCXII": {
+            "title": "Trust In You",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00S5YHQ4G": {
+            "title": "Lead Us Back: Songs of Worship",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00R0MONGI": {
+            "title": "Arabesque",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Feb": {
+        "B01BMVPUG4": {
+            "title": "#Mine (feat. Kevin Gates) [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 27,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01AYM3IY8": {
+            "title": "Galavant Season 2 (Original Television Soundtrack)",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B019SBYC1O": {
+            "title": "Bushes of Love",
+            "avg_ratings": 5.0,
+            "num_ratings": 28,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B017T1O7LK": {
+            "title": "WTF (Where They From) [feat. Pharrell Williams] [Clean]",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B017CT8EV8": {
+            "title": "The Night Begins to Shine [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0170K9WHE": {
+            "title": "Million Years Ago",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 54,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00TKKNIFK": {
+            "title": "Serial Killer Barbie: The Musical (Original Cast Recording) [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 27,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00TGVF0DG": {
+            "title": "Chinese Affection [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 36,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00T59TLUC": {
+            "title": "Nathan Pacheco II",
+            "avg_ratings": 5.0,
+            "num_ratings": 23,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Mar": {
+        "B01DCQ8CYE": {
+            "title": "Sharp Dressed Man",
+            "avg_ratings": 5.0,
+            "num_ratings": 23,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01CDECA3U": {
+            "title": "Somewhere My Love (From \"Doctor Zhivago\")",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01CDEEDW6": {
+            "title": "The Holy City",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01856MVR0": {
+            "title": "Spirit Break Out",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73QTK": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013Z85IGO": {
+            "title": "Lost Boy",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B012CAS28M": {
+            "title": "The River",
+            "avg_ratings": 5.0,
+            "num_ratings": 43,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YIB4B02": {
+            "title": "Move (Keep Walkin)",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00TXVQRJA": {
+            "title": "Game Of Thrones",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00TKKNIFK": {
+            "title": "Serial Killer Barbie: The Musical (Original Cast Recording) [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 28,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Apr": {
+        "B01HJ91HEC": {
+            "title": "The Very Next Thing",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01FN74ZKU": {
+            "title": "Unleashed",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01DOO46BM": {
+            "title": "Blue Ain't Your Color",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01DL6LPQC": {
+            "title": "F'l Ak Tout K'w",
+            "avg_ratings": 5.0,
+            "num_ratings": 29,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B017TJY2QC": {
+            "title": "Love Yourself",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 26,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00W2Z38XW": {
+            "title": "11 Something",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00V94HFI6": {
+            "title": "Tennessee Whiskey",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00USW52XA": {
+            "title": "Pressure",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00UMT435M": {
+            "title": "Touch The Sky",
+            "avg_ratings": 5.0,
+            "num_ratings": 35,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "May": {
+        "B01HJ91HEC": {
+            "title": "The Very Next Thing",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01FY6NXWG": {
+            "title": "Invigorate Israel",
+            "avg_ratings": 5.0,
+            "num_ratings": 32,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01FNL3XLS": {
+            "title": "Spanish Moss Sirens",
+            "avg_ratings": 5.0,
+            "num_ratings": 27,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01F7HQ50E": {
+            "title": "Human [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 30,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01BIR6FTS": {
+            "title": "Tony Jackson",
+            "avg_ratings": 5.0,
+            "num_ratings": 46,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01BHMFU9A": {
+            "title": "The Impossible Kid [Clean]",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0154UNQXI": {
+            "title": "1000 X'S & O'S",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B014DIAMQG": {
+            "title": "One Call Away",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YI4B79W": {
+            "title": "Meliora",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Jun": {
+        "B01H86G02U": {
+            "title": "Pulse",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01FNL3XLS": {
+            "title": "Spanish Moss Sirens",
+            "avg_ratings": 5.0,
+            "num_ratings": 21,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01F2O06YS": {
+            "title": "In Common",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01BZJV88C": {
+            "title": "Brave New World",
+            "avg_ratings": 5.0,
+            "num_ratings": 27,
+            "brand": "Midnight Kahuna",
+            "sub_categories": null
+        },
+        "B01BIR6FTS": {
+            "title": "Tony Jackson",
+            "avg_ratings": 5.0,
+            "num_ratings": 30,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01B5DZA3M": {
+            "title": "Saddle Up",
+            "avg_ratings": 5.0,
+            "num_ratings": 69,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 34,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YWLG69M": {
+            "title": "Eternalize",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YOC12IO": {
+            "title": "Buen Jesus",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YIB4B02": {
+            "title": "Move (Keep Walkin)",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Jul": {
+        "B01GJLUQUC": {
+            "title": "Amma - Devotional Songs to the Divine Mother",
+            "avg_ratings": 5.0,
+            "num_ratings": 23,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01AZG5ZN0": {
+            "title": "Bulletproof",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B016QUF6P6": {
+            "title": "Pentatonix's Top Songs",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015Y73TEW": {
+            "title": "Good Good Father",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0135RTJRY": {
+            "title": "The Piano Guys' Top Songs",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01187Q5RK": {
+            "title": "With Lee in Virginia: The Extraordinary Adventures of G.A. Henty",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": "Sean Astin, Kirk Cameron, Chris Anthony, Kelsey Landsdowne, Jim Weiss Brian Blessed",
+            "sub_categories": null
+        },
+        "B01018KRMQ": {
+            "title": "Cut The Cord",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00ZRRB8WA": {
+            "title": "Back In My Arms",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00XO2XOMM": {
+            "title": "Urban Flora",
+            "avg_ratings": 5.0,
+            "num_ratings": 30,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00U0YCXII": {
+            "title": "Trust In You",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Aug": {
+        "B01H7XADLS": {
+            "title": "Spark",
+            "avg_ratings": 5.0,
+            "num_ratings": 29,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01DOO46BM": {
+            "title": "Blue Ain't Your Color",
+            "avg_ratings": 5.0,
+            "num_ratings": 34,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013SZK44K": {
+            "title": "Alchemy",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013K6ADTI": {
+            "title": "Song of a Dead Man",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013FAHG2Q": {
+            "title": "Selfish",
+            "avg_ratings": 5.0,
+            "num_ratings": 23,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013AIG5PW": {
+            "title": "One Place Live (Deluxe Edition)",
+            "avg_ratings": 5.0,
+            "num_ratings": 37,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B012J9WWI2": {
+            "title": "Dr. Thomas",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B012CAS28M": {
+            "title": "The River",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B011JGTHB6": {
+            "title": "Congratulations (Acoustic)",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B010S37H72": {
+            "title": "Grace",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Sep": {
+        "B01ENS16MK": {
+            "title": "The Tel-Star Sessions",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01DOO46BM": {
+            "title": "Blue Ain't Your Color",
+            "avg_ratings": 5.0,
+            "num_ratings": 81,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B014C9WZAM": {
+            "title": "Cheerleader",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01424HENU": {
+            "title": "Nonsense [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013SZK968": {
+            "title": "My Story",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B013AIG5PW": {
+            "title": "One Place Live (Deluxe Edition)",
+            "avg_ratings": 5.0,
+            "num_ratings": 40,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B012CAS28M": {
+            "title": "The River",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01298TP4M": {
+            "title": "Digital Vein (Deluxe Version)",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B011DBVGH0": {
+            "title": "Strip It Down",
+            "avg_ratings": 5.0,
+            "num_ratings": 40,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0116KAO6W": {
+            "title": "Long Live [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Oct": {
+        "B01H4BTMX8": {
+            "title": "Worship Journal (Live)",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01B73XHYE": {
+            "title": "Don't Let Me Down",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B017A5JINW": {
+            "title": "Soft Place to Land",
+            "avg_ratings": 5.0,
+            "num_ratings": 19,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B016QVKBZK": {
+            "title": "Just Saying",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B016FQ05F2": {
+            "title": "Spiritual Relationship: The Deeper Meaning",
+            "avg_ratings": 5.0,
+            "num_ratings": 34,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0168LGZ12": {
+            "title": "Firefly",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0161BPHKY": {
+            "title": "Humble And Kind",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0160T43C0": {
+            "title": "Run to You - Single",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00XY7SGXY": {
+            "title": "Rise Up",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00UMT435M": {
+            "title": "Touch The Sky",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Nov": {
+        "B01HC8I8L0": {
+            "title": "Chi Might",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B017CT8EV8": {
+            "title": "The Night Begins to Shine [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 25,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B016XD2NL6": {
+            "title": "Refuge",
+            "avg_ratings": 5.0,
+            "num_ratings": 20,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B0161BPHKY": {
+            "title": "Humble And Kind",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B012CAS28M": {
+            "title": "The River",
+            "avg_ratings": 5.0,
+            "num_ratings": 31,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00YD3YK4M": {
+            "title": "Ego Death [Explicit]",
+            "avg_ratings": 5.0,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00U0YCVCG": {
+            "title": "First",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00PIC855W": {
+            "title": "Baby It Ain't Christmas Without You",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00PC2S9RM": {
+            "title": "Campfire Christmas (Vol. 1)",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00P90Y5DO": {
+            "title": "Make It Bounce",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Dec": {
+        "B01FGQJOB8": {
+            "title": "Why I Love You",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01FAB74PW": {
+            "title": "Novelties (An Amazon Music Original)",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B018M7LSAI": {
+            "title": "All I Want For Christmas Is A Goat",
+            "avg_ratings": 5.0,
+            "num_ratings": 15,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B01857CS4U": {
+            "title": "Boot Camp Prayer",
+            "avg_ratings": 5.0,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B015KPX3K8": {
+            "title": "Noel (Live) [feat. Lauren Daigle]",
+            "avg_ratings": 5.0,
+            "num_ratings": 24,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00PGAGMGK": {
+            "title": "That’s Christmas To Me Signed Copy",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": "Pentatonix",
+            "sub_categories": null
+        },
+        "B00O75VANA": {
+            "title": "Live in Australia",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00MRQYZOM": {
+            "title": "Lonely Tonight (feat. Ashley Monroe)",
+            "avg_ratings": 5.0,
+            "num_ratings": 18,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00LAP3KS8": {
+            "title": "How Can It Be",
+            "avg_ratings": 5.0,
+            "num_ratings": 22,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00KT3N8DY": {
+            "title": "I'm Not The Only One",
+            "avg_ratings": 5.0,
+            "num_ratings": 23,
+            "brand": null,
+            "sub_categories": null
+        }
+    }
+}

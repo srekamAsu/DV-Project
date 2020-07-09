@@ -153,9 +153,14 @@ def main():
     # data_processing('Appliances')
     # data_processing('Arts_Crafts_and_Sewing')
     # data_processing('Automotive')
+    # data_processing('CDs_and_Vinyl')
     # data_processing('Cell_Phones_and_Accessories')
+    # data_processing('Clothing_Shoes_and_Jewelry')
+    # data_processing('Digital_Music')
+    # data_processing('Electronics')
     # data_processing('Gift_Cards')
     # data_processing('Grocery_and_Gourmet_Food')
+    # data_processing('Home_and_Kitchen')
     # data_processing('Industrial_and_Scientific')
     # data_processing('Kindle_Store')
     # data_processing('Luxury_Beauty')
@@ -167,34 +172,15 @@ def main():
     # data_processing('Pet_Supplies')
     # data_processing('Prime_Pantry')
     # data_processing('Software')
+    # data_processing('Sports_and_Outdoors')
     # data_processing('Tools_and_Home_Improvement')
     # data_processing('Toys_and_Games')
     # data_processing('Video_Games')
 
     # Incompleted Categories
 
-    # books_bad_asin = ['']
-    # data_processing('Books', books_bad_asin)
-
-    # CDs_bad_asin = ['']
-    # data_processing('CDs_and_Vinyl', CDs_bad_asin)
-
-    # clothing_bad_asin = ['']
-    # data_processing('Clothing_Shoes_and_Jewelry', clothing_bad_asin)
-
-    # music_bad_asin = ['']
-    # data_processing('Digital_Music', music_bad_asin)
-
-    # electronics_bad_asin = ['']
-    # data_processing('Electronics', electronics_bad_asin)
-
-    # home_kitchen_bad_asin = ['']
-    # data_processing('Home_Kitchen', home_kitchen_bad_asin)
-
-    # sports_bad_asin = ['']
-    # data_processing('Sports_and_Outdoors', sports_bad_asin)
+    data_processing('Books')
     pass
-
 
 
 if __name__ == "__main__":
