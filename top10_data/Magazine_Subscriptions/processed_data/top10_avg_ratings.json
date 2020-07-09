@@ -1,0 +1,47 @@
+{
+    "Jan": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.6470588235294117,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        }
+    },
+    "Feb": {},
+    "Mar": {},
+    "Apr": {},
+    "May": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 1.5625,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        }
+    },
+    "Jun": {},
+    "Jul": {},
+    "Aug": {},
+    "Sep": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.235294117647059,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        }
+    },
+    "Oct": {},
+    "Nov": {},
+    "Dec": {}
+}

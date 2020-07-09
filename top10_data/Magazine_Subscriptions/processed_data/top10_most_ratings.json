@@ -1,0 +1,1307 @@
+{
+    "Jan": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.6470588235294117,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 12,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.5,
+            "num_ratings": 12,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 4.7,
+            "num_ratings": 10,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.111111111111111,
+            "num_ratings": 9,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.25,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.5714285714285716,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 3.8333333333333335,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 4.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B000066T19": {
+            "title": "Today's Creative Home Arts",
+            "avg_ratings": 3.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": null
+        }
+    },
+    "Feb": {
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.6363636363636362,
+            "num_ratings": 11,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005NIPI": {
+            "title": "Ladies Home Journal (1-year)",
+            "avg_ratings": 4.0,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 3.3333333333333335,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 1.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B00007AXGK": {
+            "title": "Fortean Times",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Religion & Spirituality",
+                "Occult"
+            ]
+        },
+        "B00005N7XT": {
+            "title": "Diabetic Cooking",
+            "avg_ratings": 4.666666666666667,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Special Diet"
+            ]
+        },
+        "B00005N7RV": {
+            "title": "Nickelodeon",
+            "avg_ratings": 3.3333333333333335,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7RP": {
+            "title": "Natural Health",
+            "avg_ratings": 1.6666666666666667,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        },
+        "B00005N7UW": {
+            "title": "Time Out New York",
+            "avg_ratings": 3.3333333333333335,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Travel, City & Regional",
+                "United States",
+                "Northeast"
+            ]
+        }
+    },
+    "Mar": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.3333333333333335,
+            "num_ratings": 9,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00016JENW": {
+            "title": "Yoga Journal",
+            "avg_ratings": 4.166666666666667,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 4.166666666666667,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 3.8,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.6,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B001BKE2MU": {
+            "title": "Shonen Jump",
+            "avg_ratings": 2.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture"
+            ]
+        },
+        "B000066T19": {
+            "title": "Today's Creative Home Arts",
+            "avg_ratings": 1.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00005NIPI": {
+            "title": "Ladies Home Journal (1-year)",
+            "avg_ratings": 2.6666666666666665,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.6666666666666665,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7TM": {
+            "title": "Woman's Day",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        }
+    },
+    "Apr": {
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.857142857142857,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 1.8571428571428572,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.8,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00006J9HX": {
+            "title": "PCPhoto",
+            "avg_ratings": 4.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Arts, Music & Photography",
+                "Photography"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 3.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B00006KPSW": {
+            "title": "New Moon: the Magazine for Girls & Their Dreams",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Children & Teen",
+                "Children",
+                "By Age",
+                "Ages 9-12"
+            ]
+        },
+        "B00007J82Z": {
+            "title": "Sew Beautiful",
+            "avg_ratings": 3.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Crafts & Hobbies"
+            ]
+        },
+        "B00005N7RV": {
+            "title": "Nickelodeon",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7RP": {
+            "title": "Natural Health",
+            "avg_ratings": 2.3333333333333335,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        }
+    },
+    "May": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 1.5625,
+            "num_ratings": 16,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.25,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.571428571428571,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 3.0,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005NIOG": {
+            "title": "National Enquirer",
+            "avg_ratings": 4.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Celebrities & Gossip"
+            ]
+        },
+        "B00007AY2J": {
+            "title": "Import Tuner",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Professional & Educational Journals",
+                "Professional & Trade",
+                "Transportation"
+            ]
+        },
+        "B00006K3AZ": {
+            "title": "American Journal of Nursing",
+            "avg_ratings": 4.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Professional & Educational Journals",
+                "Professional & Trade",
+                "Medicine",
+                "Nursing"
+            ]
+        },
+        "B00005NIPI": {
+            "title": "Ladies Home Journal (1-year)",
+            "avg_ratings": 4.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00005N7RV": {
+            "title": "Nickelodeon",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7UW": {
+            "title": "Time Out New York",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Travel, City & Regional",
+                "United States",
+                "Northeast"
+            ]
+        }
+    },
+    "Jun": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 1.6666666666666667,
+            "num_ratings": 12,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.375,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 2.142857142857143,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.166666666666667,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 4.0,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00007J82Z": {
+            "title": "Sew Beautiful",
+            "avg_ratings": 4.4,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Crafts & Hobbies"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.8,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.6,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B000F3UPN4": {
+            "title": "Rivet",
+            "avg_ratings": 4.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Arts, Music & Photography",
+                "Music"
+            ]
+        },
+        "B00007B0M3": {
+            "title": "Plugged in",
+            "avg_ratings": 2.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Parenting & Families"
+            ]
+        }
+    },
+    "Jul": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.75,
+            "num_ratings": 12,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 2.6363636363636362,
+            "num_ratings": 11,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 3.111111111111111,
+            "num_ratings": 9,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 4.0,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00006K3AZ": {
+            "title": "American Journal of Nursing",
+            "avg_ratings": 5.0,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Professional & Educational Journals",
+                "Professional & Trade",
+                "Medicine",
+                "Nursing"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 3.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.666666666666667,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.666666666666667,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 2.6666666666666665,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        }
+    },
+    "Aug": {
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.090909090909091,
+            "num_ratings": 11,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.7,
+            "num_ratings": 10,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 5.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 3.8,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 4.6,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B000EQIF5W": {
+            "title": "Search Marketing Standard",
+            "avg_ratings": 5.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Advertising"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.5,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 5.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        }
+    },
+    "Sep": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.235294117647059,
+            "num_ratings": 17,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 4.2,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 2.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.5,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005N7TM": {
+            "title": "Woman's Day",
+            "avg_ratings": 3.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B000YQQ3T2": {
+            "title": "First",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B000EQIF5W": {
+            "title": "Search Marketing Standard",
+            "avg_ratings": 5.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Advertising"
+            ]
+        },
+        "B00005N7TE": {
+            "title": "Vibe",
+            "avg_ratings": 2.3333333333333335,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Arts, Music & Photography",
+                "Music"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 3.6666666666666665,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00006L2Z8": {
+            "title": "Zoobooks",
+            "avg_ratings": 3.6666666666666665,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Children & Teen",
+                "Children",
+                "By Age",
+                "Ages 9-12"
+            ]
+        }
+    },
+    "Oct": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 2.727272727272727,
+            "num_ratings": 11,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 3.25,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 4.857142857142857,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 4.833333333333333,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005NIPI": {
+            "title": "Ladies Home Journal (1-year)",
+            "avg_ratings": 4.0,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": null
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.4,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.2,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005N7RP": {
+            "title": "Natural Health",
+            "avg_ratings": 2.0,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        },
+        "B00005N7TM": {
+            "title": "Woman's Day",
+            "avg_ratings": 3.5,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B00007J82Z": {
+            "title": "Sew Beautiful",
+            "avg_ratings": 4.333333333333333,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Crafts & Hobbies"
+            ]
+        }
+    },
+    "Nov": {
+        "B0000ARXXS": {
+            "title": "Everyday Food",
+            "avg_ratings": 3.75,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.75,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 3.375,
+            "num_ratings": 8,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00006L2Z8": {
+            "title": "Zoobooks",
+            "avg_ratings": 5.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Children & Teen",
+                "Children",
+                "By Age",
+                "Ages 9-12"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 3.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7XS": {
+            "title": "CosmoGIRL! (1-year)",
+            "avg_ratings": 4.166666666666667,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Fashion & Style",
+                "Women"
+            ]
+        },
+        "B00005N7SH": {
+            "title": "Reptiles (1-year)",
+            "avg_ratings": 5.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Pets & Animals"
+            ]
+        },
+        "B00005N7RV": {
+            "title": "Nickelodeon",
+            "avg_ratings": 3.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00005R8B8": {
+            "title": "Fortune (1-year)",
+            "avg_ratings": 4.0,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Business Life"
+            ]
+        }
+    },
+    "Dec": {
+        "B00005N7RT": {
+            "title": "Newsweek - Regular ed",
+            "avg_ratings": 3.230769230769231,
+            "num_ratings": 13,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "News & Political Commentary"
+            ]
+        },
+        "B00005N7SS": {
+            "title": "SmartMoney (1-year)",
+            "avg_ratings": 3.5454545454545454,
+            "num_ratings": 11,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Business & Investing",
+                "Finance"
+            ]
+        },
+        "B00005N7S5": {
+            "title": "PC World",
+            "avg_ratings": 3.7142857142857144,
+            "num_ratings": 7,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B00005N7QH": {
+            "title": "Gourmet (1-year)",
+            "avg_ratings": 3.0,
+            "num_ratings": 6,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B000BKPPRM": {
+            "title": "Cooking With Paula Deen",
+            "avg_ratings": 4.2,
+            "num_ratings": 5,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Cooking, Food & Wine",
+                "Recipes & Techniques"
+            ]
+        },
+        "B00016JENW": {
+            "title": "Yoga Journal",
+            "avg_ratings": 4.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        },
+        "B00005N7RP": {
+            "title": "Natural Health",
+            "avg_ratings": 1.25,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Health, Fitness & Wellness",
+                "Health"
+            ]
+        },
+        "B00005N7S4": {
+            "title": "PC Magazine",
+            "avg_ratings": 3.75,
+            "num_ratings": 4,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Technology",
+                "Computers & Internet"
+            ]
+        },
+        "B00006K6E1": {
+            "title": "Breakaway",
+            "avg_ratings": 2.3333333333333335,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Children & Teen",
+                "Children",
+                "By Age",
+                "12 & Up"
+            ]
+        },
+        "B00005R8BC": {
+            "title": "People (6-month)",
+            "avg_ratings": 4.666666666666667,
+            "num_ratings": 3,
+            "brand": null,
+            "sub_categories": [
+                "Magazine Subscriptions",
+                "Entertainment & Pop Culture",
+                "Movies"
+            ]
+        }
+    }
+}
