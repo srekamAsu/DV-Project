@@ -11,6 +11,8 @@
       <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
    </head>
    <body>
       <div class="container header">
@@ -37,6 +39,30 @@
             </div>
          </nav>
       </div>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <select id="selectMonth" onchange="loadViz(this.value)">
+                <option id="default_month_option">Choose a month</option>
+            </select>
+          </div>
+          <div class="col">
+            <select id="selectCategory" onchange="loadVizByCategory(this.value)">
+                <option id="default_category_option">Choose a category</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row " style="width:65%; height:60%; border: 1px solid black;">
+          <div class="col-md-3">
+            <svg id="top-10-ratings"></svg>
+          </div>
+        </div>
+      </div>
+      <script src="./js/index.js"></script>
 
    </body>
 </html>

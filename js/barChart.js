@@ -3,7 +3,7 @@ function barChart(data, className, type) {
     var margin = {top: 20, bottom: 70, left: 40, right: 20};
     var width = 410;
     var height = 300;
-
+    console.log(data);
     var svg = d3.select(className)
         .attr('height', height )
         .attr('width', width )

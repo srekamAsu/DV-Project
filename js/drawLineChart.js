@@ -1,7 +1,6 @@
 var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 function drawLineChart(keyBrand, extractedDates, svgID){
-    console.log("in bar click");
     var dates = [];
     var  Dcount = [];
     for (var index in months){
@@ -85,7 +84,7 @@ function drawSubLine(dates,Dcount,datesExtracted,topic,svgID){
     svg.selectAll(".dot")
         .data(dates)
         .enter().append("circle")
-        .attr("class", "dot") 
+        .attr("class", "dot")
         .attr("cx", function(d) {
             return xScale(d)
         })
