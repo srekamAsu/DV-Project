@@ -41,6 +41,7 @@ def readMetaData(fileName, output_file, productReviews):
     BrandMetaData = {}
     totalCategories= {}
     for data in parse(fileName):
+        # print(data, ",")
         count += 1
         if (count == 100 and Test):
             break
@@ -51,11 +52,14 @@ def readMetaData(fileName, output_file, productReviews):
 #             newObject["Categories"] = []
             product_review = productReviews[asin]
             overall_rating = sum(product_review['rating']) / len(product_review['rating'])
+            brand = None
             if "brand" in data:
                 brand = data["brand"].replace("\n", "").replace("by", "").strip()
 #             print(data)
 #             if "main_cat" in data:
 #                 totalCategories.add(data["main_cat"])
+            if not "category" in data:
+                data['category'] = [data['main_cat']]
             if ("category" in data) and (len(data['category']) > 0):
                 if brand != None and brand not in BrandMetaData:
                         BrandMetaData[brand] = {}
@@ -63,10 +67,11 @@ def readMetaData(fileName, output_file, productReviews):
                             BrandMetaData[brand][month] = 0
                         BrandMetaData[brand]["count"] = 0
                         BrandMetaData[brand]["avg_rating"] = []
-                BrandMetaData[brand]["avg_rating"].extend(product_review['rating'])
-                BrandMetaData[brand]["count"] += len(product_review['rating'])
-                for month in months:
-                    BrandMetaData[brand][month] += product_review[month]
+                if brand is not None:
+                    BrandMetaData[brand]["avg_rating"].extend(product_review['rating'])
+                    BrandMetaData[brand]["count"] += len(product_review['rating'])
+                    for month in months:
+                        BrandMetaData[brand][month] += product_review[month]
                 for category in data['category']:
                     category = category.strip()
                     if len(category.split(" ")) < 4 and len(category) < 50:
@@ -78,9 +83,10 @@ def readMetaData(fileName, output_file, productReviews):
                             totalCategories[category]["brands"] = {}
                             totalCategories[category]["count"] = 0
 #                         newObject["Categories"].append(category)
-                        if brand not in totalCategories[category]["brands"]:
+                        if brand is not None and brand not in totalCategories[category]["brands"]:
                             totalCategories[category]["brands"][brand] = 0
-                        totalCategories[category]["brands"][brand] += len(product_review['rating'])
+                        if brand is not None:
+                            totalCategories[category]["brands"][brand] += len(product_review['rating'])
                         totalCategories[category]["avg_rating"].extend(product_review['rating'])
                         totalCategories[category]["count"] += len(product_review['rating'])
 
@@ -174,9 +180,64 @@ def appliancesDataExtraction():
     print(len(productReviews), " is appliances prodcuts length")
     readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
 
+def moviesDataExtraction():
+    beautyFileName = "../RawData/Movies_and_TV.json.gz"
+    beautyMetaFileName = "../RawData/meta_Movies_and_TV.json.gz"
+    beautyOutputFile = "../data/movies_and_tv.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def artsDataExtraction():
+    beautyFileName = "../RawData/Arts_Crafts_and_Sewing.json.gz"
+    beautyMetaFileName = "../RawData/meta_Arts_Crafts_and_Sewing.json.gz"
+    beautyOutputFile = "../data/arts_carfsts_and_sewing.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def booksDataExtraction():
+    beautyFileName = "../RawData/Books.json.gz"
+    beautyMetaFileName = "../RawData/meta_Books.json.gz"
+    beautyOutputFile = "../data/books.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def cdsDataExtraction():
+    beautyFileName = "../RawData/CDs_and_Vinyl.json.gz"
+    beautyMetaFileName = "../RawData/meta_CDs_and_Vinyl.json.gz"
+    beautyOutputFile = "../data/cds_and_vinyl.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def mobilesDataExtraction():
+    beautyFileName = "../RawData/Cell_Phones_and_Accessories.json.gz"
+    beautyMetaFileName = "../RawData/meta_Cell_Phones_and_Accessories.json.gz"
+    beautyOutputFile = "../data/cell_phones_and_accessories.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def automotiveDataExtraction():
+    beautyFileName = "../RawData/Automotive.json.gz"
+    beautyMetaFileName = "../RawData/meta_Automotive.json.gz"
+    beautyOutputFile = "../data/automotive.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
 def main():
-    beautyDataExtraction()
-    appliancesDataExtraction()
+    # artsDataExtraction()
+    # print("hello ")
+    # booksDataExtraction()
+    # print("hello ")
+    cdsDataExtraction()
+    print("hello ")
+    mobilesDataExtraction()
+    print("hello ")
+    automotiveDataExtraction()
 
 
 if __name__ == "__main__":

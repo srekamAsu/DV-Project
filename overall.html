@@ -23,14 +23,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a id="most-sells" href="index.html">Most Sells Product </a>
+          </li> -->
+          <li class="nav-item">
+            <a id="most-ratings" href="?tab=most-ratings">Most Ratings Product </a>
           </li>
           <li class="nav-item">
-            <a id="most-ratings" href="index.html">Most Ratings Product </a>
-          </li>
-          <li class="nav-item">
-            <a id="top-ratings" href="index.html">Top Ratings Product </a>
+            <a id="top-ratings" href="?tab=top-ratings">Top Ratings Product </a>
           </li>
           <li>
             <a id="overall" href="overall.html">Overall</a>
@@ -48,6 +48,11 @@
       <div class="col make-center">
         <br>
         <br>
+        <div class="col">
+          <select id="selectCategory" onchange="loadViz(this.value)">
+              <option id="default_month_option">Choose a Category</option>
+          </select>
+        </div>
         <div>
           <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="Search Category" aria-label="Search">
         </div>
@@ -55,6 +60,7 @@
         <script type="text/javascript" src="js/barChart.js"></script>
         <script type="text/javascript" src="js/drawLineChart.js"></script>
         <br>
+        <div id="bubble-container-heading">SubCategories in Category</div>
         <div id="bubble-container"></div>
       </div>
       <div class="col">
@@ -75,22 +81,22 @@
   </div>
 
   <div class="popup-overlay">
-   <div id="close">X</div>
-   <div id = "popup">
+    <div id="close">X</div>
+    <div id="popup">
       <div id="popUpWindow">
-         <div class="row" style="width: auto; border: 1px solid black;">
-            <div class="" >
-               <svg id="sublineChart"></svg>
-            </div>
-         </div>
-         <div class="row" style="width: auto; border: 1px solid black;">
-            <div class="" >
-               <svg id="subCategory-barChart"></svg>
-            </div>
-         </div>
+        <div class="row pop-up-charts" style="width: auto; border: 1px solid black;">
+          <div class="">
+            <svg id="sublineChart"></svg>
+          </div>
+        </div>
+        <div class="row pop-up-charts" style="width: auto; border: 1px solid black;">
+          <div class="">
+            <svg id="subCategory-barChart"></svg>
+          </div>
+        </div>
       </div>
-   </div>
-</div>
+    </div>
+  </div>
 </body>
 
 </html>

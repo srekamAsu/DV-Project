@@ -23,22 +23,22 @@ for(var i = 0; i < categories.length; i++) {
     el.value = opt;
     select.appendChild(el);
 }
-var element1 = document.getElementById("most-sells");
+// var element1 = document.getElementById("most-sells");
 var element2 = document.getElementById("most-ratings");
 var element3 = document.getElementById("top-ratings");
 var element4 = document.getElementById("overall");
-console.log(element1 , " ", element1.className);
 // element1.className = "nav-link disabled"
 // element2.className = "nav-link disabled"
 // element3.className = "nav-link disabled"
 // element4.className = "nav-link active"
-element1.onclick = function() {
-    element1.className = "nav-link active"
-    element2.className = "nav-link disabled"
-    element3.className = "nav-link disabled"
-    element4.className = "nav-link disabled"
+// element1.onclick = function() {
+//     element1.className = "nav-link active"
+//     element2.className = "nav-link disabled"
+//     element3.className = "nav-link disabled"
+//     element4.className = "nav-link disabled"
+//
+// };
 
-};
 element2.onclick = function() {
     element1.className = "nav-link disabled"
     element2.className = "nav-link active"
@@ -46,14 +46,35 @@ element2.onclick = function() {
     element4.className = "nav-link disabled"
     loadVisualizations();
 };
+
 element3.onclick = function() {
-    element1.className = "nav-link disabled"
     element2.className = "nav-link disabled"
     element3.className = "nav-link active"
     element4.className = "nav-link disabled"
     loadVisualizations2();
 };
 
+
+window.onload = function() {
+
+    var currentUrl = window.location.href;
+    var tab = new URL(currentUrl).searchParams.get("tab");
+    console.log(currentUrl, " \n", tab);
+    if (tab === null || tab.toLowerCase() === "most-ratings") {
+      element2.className = "nav-link active"
+      element3.className = "nav-link disabled"
+      element4.className = "nav-link disabled"
+      loadVisualizations();
+      loadVisualizations2();
+    } else {
+      element2.className = "nav-link disabled"
+      element3.className = "nav-link active"
+      element4.className = "nav-link disabled"
+      loadVisualizations2();
+      loadVisualizations();
+      console.log("hello");
+    }
+};
 
 var top_10_ratings_data;
 
@@ -77,7 +98,7 @@ function loadVisualizations() {
           output.push(item);
       }
       console.log(output);
-      barChartRatings(output, "#top-10-ratings","id");
+      barChartRatings(output, "#most-10-ratings","id");
   });
 }
 

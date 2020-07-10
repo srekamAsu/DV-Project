@@ -1,6 +1,6 @@
 var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-function drawLineChart(keyBrand, extractedDates, svgID){
+function drawLineChart(keyBrand, extractedDates, svgID, catOrBrand){
     var dates = [];
     var  Dcount = [];
     for (var index in months){
@@ -11,18 +11,24 @@ function drawLineChart(keyBrand, extractedDates, svgID){
         } else{
             Dcount.push("0");
         }
-
-
     }
-    drawSubLine(dates,Dcount,extractedDates,keyBrand, svgID);
+    drawSubLine(dates,Dcount,extractedDates,keyBrand, svgID, catOrBrand);
 }
 
-function drawSubLine(dates,Dcount,datesExtracted,topic,svgID){
-  console.log(dates);
-    var margin = {top: 20, bottom: 70, left: 40, right: 20};
-    var width = 410;
+function drawSubLine(dates, Dcount, datesExtracted, topic, svgID, catOrBrand){
+  console.log(catOrBrand);
+    var margin = {top: 20, bottom: 70, left: 50, right: 20};
+    var width = 380;
     var height = 330;
-
+    if (catOrBrand.toLowerCase() === "category") {
+      width = 540;
+      height = 260;
+    }
+    var svg = d3.select(svgID)
+        .attr('height', height )
+        .attr('width', width )
+        .attr('transform', 'translate(0,20)');
+    svg.selectAll("*").remove();
     var xScale = d3.scaleBand()
         .rangeRound([0, width-margin.left])
         .padding(1)
@@ -80,7 +86,7 @@ function drawSubLine(dates,Dcount,datesExtracted,topic,svgID){
         .style("font-size", "20px")
         .style("font-family", "serif")
         .style("text-decoration", "underline")
-        .text("Frequency of " + topic );
+        .text("Frequency of " + topic + " " + catOrBrand);
     svg.selectAll(".dot")
         .data(dates)
         .enter().append("circle")

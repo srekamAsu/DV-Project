@@ -58,3 +58,24 @@
 	cursor: pointer;
 	color: black;
 }
+
+.pop-up-charts {
+	float: left;
+	margin: 0 1.5%;
+	width: 46%;
+	margin-top: 10%;
+}
+
+
+#bubble-container-heading {
+	text-align: center;
+	font-weight: bold;
+}
+
+/* #brand-barchart {
+	margin: 20px;
+} */
+
+#popUpWindow svg {
+	margin: 40px;
+}

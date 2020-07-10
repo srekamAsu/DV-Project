@@ -43,3 +43,10 @@ a {
 .focus circle {
 	fill: none;
 }
+
+.tops-graphs, .sells-graphs {
+  width:45%;
+  height:60%;
+  border: 1px solid black;
+  margin: 30px;
+}

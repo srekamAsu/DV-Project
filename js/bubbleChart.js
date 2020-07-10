@@ -3,45 +3,61 @@ var diameter = 600;
 if (screen.width < 1300) {
     diameter = screen.width / 2 - 100;
 }
-var categoryToFilename = {"sports" : "data/sports_and_outdoors1.json"};
-var defalutCategory = "sports";
+var categoryToFilename = {"sports_and_outdoors" : "data/sports_and_outdoors1.json", "All_Beauty" : "data/beauty.json",
+                          "Clothing_and_Jewelry" : "data/cloathing_and_jewelery.json", "Appliances" : "data/appliances.json",
+                          "Movies_and_TV" : "data/movies_and_tv.json", "Books" : "data/books.json", "Automotive" : "data/automotive.json",
+                          "cds_and_vinyl" : "data/cds_and_vinyl.json", "cell_phones_and_accessories" : "data/cell_phones_and_accessories.json"};
+var categories= ["sports_and_outdoors", "All_Beauty", "Appliances", "Arts_Crafts_Sewing", "Fashion", "Clothing_and_Jewelry", "Movies_and_TV", "Books" ,
+                "Automitive", "cds_and_vinyl", "cell_phones_and_accessories"]
+var defalutCategory = "sports_and_outdoors";
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var tooltip = d3.select("body")
     .append("div")
     .attr("class", "tooltip")
     .style("opacity", "0");
 
+var select = document.getElementById("selectCategory");
+for(var i = 0; i < categories.length; i++) {
+    var opt = categories[i];
+    var el = document.createElement("option");
+    el.textContent = opt;
+    el.value = opt;
+    select.appendChild(el);
+}
+var globalCategoryData;
 
 window.onload = function() {
     category = defalutCategory;
-    d3.json(categoryToFilename[category], function(error, data) {
-        if (error) {
-            d3.select(".hello").text("error happended");
-            return;
-        }
-        totalCurrentData = data["category"];
-        totalBrandData = data["brands"];
-        if (totalBrandData.length > 15){
-          totalBrandData = totalBrandData.slice(0, 15);
-        }
-        console.log(totalBrandData);
-        bubbleVisualization(data["category"], "category")
-        barGraph(totalBrandData, '#brand-barchart', 'brand');
-        drawLineChart(totalBrandData[0].brand, totalBrandData[0].value.dates,'#brand-timeseries')
-    });
+    loadViz(category);
 };
 
 var totalCurrentData = {}
 var selectedTab = "category"
-var element1 = document.getElementById("most-sells");
 var element2 = document.getElementById("most-ratings");
 var element3 = document.getElementById("top-ratings");
 var element4 = document.getElementById("overall");
-element1.className = "nav-link disabled"
 element2.className = "nav-link disabled"
 element3.className = "nav-link disabled"
 element4.className = "nav-link active"
 
+function loadViz(category) {
+  d3.json(categoryToFilename[category], function(error, data) {
+      if (error) {
+          d3.select(".hello").text("error happended");
+          return;
+      }
+      totalCurrentData = data["category"];
+      totalBrandData = data["brands"];
+      if (totalBrandData.length > 15){
+        totalBrandData = totalBrandData.slice(0, 15);
+      }
+      console.log(totalBrandData);
+      bubbleVisualization(data["category"], "category")
+      barGraph(totalBrandData, '#brand-barchart', 'brand');
+      drawLineChart(totalBrandData[0].brand, totalBrandData[0].value.dates,'#brand-timeseries', ' brand')
+  });
+  document.getElementById("autocomplete").placeholder = "Search SubCategory in " + category + "category";
+}
 
 function bubbleVisualization(data, type) {
   console.log(data);
@@ -145,8 +161,8 @@ function bubbleVisualization(data, type) {
             if (categoryDates.length > 15){
               categoryDates = categoryDates.slice(0, 15);
             }
-            barChart(categoryBrands, '#subCategory-barChart', 'brand');
-            drawLineChart(key, categoryDates, '#sublineChart');
+            barChart(categoryBrands, '#subCategory-barChart', 'brand', key);
+            drawLineChart(key, categoryDates, '#sublineChart', 'category');
             $('#close').click(function() {
                 $('.popup-overlay').fadeOut(300);
             });
@@ -182,8 +198,8 @@ function bubbleVisualization(data, type) {
 
 
 function barGraph(data, className, type) {
-    var margin = {top: 20, bottom: 70, left: 40, right: 20};
-    var width = 430;
+    var margin = {top: 20, bottom: 70, left: 70, right: 10};
+    var width = 400;
     var height = 300;
 
     var svg = d3.select(className)
@@ -274,7 +290,7 @@ function barGraph(data, className, type) {
             if (lineChart.children.length) {
                 lineChart.children[0].remove()
             }
-            drawLineChart(d.brand, d.value.dates, '#brand-timeseries')
+            drawLineChart(d.brand, d.value.dates, '#brand-timeseries', 'brand')
 
         })
         .attr("width", xScale.bandwidth())

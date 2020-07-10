@@ -1,8 +1,8 @@
 
-function barChart(data, className, type) {
-    var margin = {top: 20, bottom: 70, left: 40, right: 20};
-    var width = 410;
-    var height = 300;
+function barChart(data, className, type, CatName) {
+    var margin = {top: 20, bottom: 70, left: 70, right: 20};
+    var width = 600;
+    var height = 350;
     console.log(data);
     var svg = d3.select(className)
         .attr('height', height )
@@ -61,8 +61,8 @@ function barChart(data, className, type) {
         .attr("fill", "navajowhite")
         .style("font-size", "20px")
         .style("font-family", "serif")
-        .style("text-decoration", "underline");
-
+        .style("text-decoration", "underline")
+        .text("Frequency of top 10 brands in " + CatName + " category");
 
 
     svg.selectAll(".bar")
