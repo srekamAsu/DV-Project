@@ -5,17 +5,17 @@ if (screen.width < 1300) {
 }
 var categoryToFilename = {"All_Beauty" : "data/beauty.json", "Automotive" : "data/automotive.json", "Clothing_Shoes_and_Jewelry" : "data/cloathing_and_jewelery.json",
                         "Grocery_and_Gourmet_Food" : "data/grocery.json", "Luxury_Beauty" : "data/luxury.json", "Office_Products" : "data/office.json",
-                         "Software" : "data/software.json", "Video_Games" : "",
+                         "Software" : "data/software.json", "Video_Games" : "data/video_games.json",
                          "Digital_Music" : "data/digital_music.json", "Home_and_Kitchen" : "data/home.json", "Magazine_Subscriptions" : "data/magazine.json",
                          "Patio_Lawn_and_Garden" : "data/patio.json", "Sports_and_Outdoors" : "data/sports_and_outdoors1.json", "Appliances" : "data/appliances.json",
                          "CDs_and_Vinyl" : "data/cds_and_vinyl.json", "Electronics" : "data/electronics.json", "Industrial_and_Scientific" : "data/industrial.json",
                          "Movies_and_TV" : "data/movies_and_tv.json", "Pet_Supplies" : "data/petSupplies.json", "Tools_and_Home_Improvement" : "",
                          "Arts_Crafts_and_Sewing" : "data/arts_carfsts_and_sewing.json", "Cell_Phones_and_Accessories" : "data/cell_phones_and_accessories.json",
                          "Gift_Cards" : "data/gift_cards.json", "Kindle_Store" : "data/kindle.json", "Musical_Instruments" : "data/musical.json",
-                         "Prime_Pantry" : "", "Toys_and_Games"  : ""};
+                         "Prime_Pantry" : "data/prime_pantry.json", "Toys_and_Games"  : "data/toys.json"};
 
-var categories= ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "AMAZON_FASHION", "Books", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
-var defalutCategory = "sports_and_outdoors";
+var categories= ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "AMAZON_FASHION", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
+var defalutCategory = "Sports_and_Outdoors";
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var tooltip = d3.select("body")
     .append("div")
