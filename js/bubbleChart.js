@@ -3,12 +3,18 @@ var diameter = 600;
 if (screen.width < 1300) {
     diameter = screen.width / 2 - 100;
 }
-var categoryToFilename = {"sports_and_outdoors" : "data/sports_and_outdoors1.json", "All_Beauty" : "data/beauty.json",
-                          "Clothing_and_Jewelry" : "data/cloathing_and_jewelery.json", "Appliances" : "data/appliances.json",
-                          "Movies_and_TV" : "data/movies_and_tv.json", "Books" : "data/books.json", "Automotive" : "data/automotive.json",
-                          "cds_and_vinyl" : "data/cds_and_vinyl.json", "cell_phones_and_accessories" : "data/cell_phones_and_accessories.json"};
-var categories= ["sports_and_outdoors", "All_Beauty", "Appliances", "Arts_Crafts_Sewing", "Fashion", "Clothing_and_Jewelry", "Movies_and_TV", "Books" ,
-                "Automitive", "cds_and_vinyl", "cell_phones_and_accessories"]
+var categoryToFilename = {"All_Beauty" : "data/beauty.json", "Automotive" : "data/automotive.json", "Clothing_Shoes_and_Jewelry" : "data/cloathing_and_jewelery.json",
+                        "Grocery_and_Gourmet_Food" : "data/grocery.json", "Luxury_Beauty" : "data/luxury.json", "Office_Products" : "data/office.json",
+                         "Software" : "data/software.json", "Video_Games" : "",
+                         "Digital_Music" : "data/digital_music.json", "Home_and_Kitchen" : "data/home.json", "Magazine_Subscriptions" : "data/magazine.json",
+                         "Patio_Lawn_and_Garden" : "data/patio.json", "Sports_and_Outdoors" : "data/sports_and_outdoors1.json", "Appliances" : "data/appliances.json",
+                         "CDs_and_Vinyl" : "data/cds_and_vinyl.json", "Electronics" : "data/electronics.json", "Industrial_and_Scientific" : "data/industrial.json",
+                         "Movies_and_TV" : "data/movies_and_tv.json", "Pet_Supplies" : "data/petSupplies.json", "Tools_and_Home_Improvement" : "",
+                         "Arts_Crafts_and_Sewing" : "data/arts_carfsts_and_sewing.json", "Cell_Phones_and_Accessories" : "data/cell_phones_and_accessories.json",
+                         "Gift_Cards" : "data/gift_cards.json", "Kindle_Store" : "data/kindle.json", "Musical_Instruments" : "data/musical.json",
+                         "Prime_Pantry" : "", "Toys_and_Games"  : ""};
+
+var categories= ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "AMAZON_FASHION", "Books", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
 var defalutCategory = "sports_and_outdoors";
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var tooltip = d3.select("body")
@@ -56,7 +62,7 @@ function loadViz(category) {
       barGraph(totalBrandData, '#brand-barchart', 'brand');
       drawLineChart(totalBrandData[0].brand, totalBrandData[0].value.dates,'#brand-timeseries', ' brand')
   });
-  document.getElementById("autocomplete").placeholder = "Search SubCategory in " + category + "category";
+  document.getElementById("autocomplete").placeholder = "Search SubCategory in " + category + " Category";
 }
 
 function bubbleVisualization(data, type) {
@@ -234,9 +240,9 @@ function barGraph(data, className, type) {
         .call(d3.axisBottom(xScale))
         .selectAll("text")
         .attr("text-anchor", "middle")
-        .style("font-size", "10px")
+        .style("font-size", "12px")
         .attr("font-family", "serif")
-        .attr("transform", "rotate(-45)translate(-30,-15)");
+        .attr("transform", "rotate(-90)translate(-25,-20)");
 
     svg.append("g")
         .attr("transform", "translate(" + margin.left + ","+ (0 - margin.bottom) +")")
@@ -276,7 +282,7 @@ function barGraph(data, className, type) {
         .on("mouseover", function(d){
             d3.select(this)
             	.style("fill", "navajowhite");
-            tooltip.html(d[type] + '<br/>' + parseInt(d.value.count))
+            tooltip.html(d[type] + '<br/>' + parseInt(d.value.count));
             tooltip.style("top", (d3.event.pageY + 34) + "px").style("left", (d3.event.pageX - 30) + "px").style("display", "block").style("opacity", "1");
         })
         .on("mouseout", function () {

@@ -2,9 +2,9 @@ var totalCurrentData = {}
 var selectedTab = "overall"
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
 
-var categories = ["All_Beauty", "Appliances", "Arts_Crafts_Sewing", "Fashion"];
+var categories = ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "AMAZON_FASHION", "Books", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
 var default_month = "Jan";
-var default_category = "Appliances";
+var default_category = "All_Beauty";
 document.getElementById("default_month_option").text = default_month;
 document.getElementById("default_category_option").text = default_category;
 var select = document.getElementById("selectMonth");
@@ -44,14 +44,14 @@ element2.onclick = function() {
     element2.className = "nav-link active"
     element3.className = "nav-link disabled"
     element4.className = "nav-link disabled"
-    loadVisualizations();
+    loadVisualizations_most();
 };
 
 element3.onclick = function() {
     element2.className = "nav-link disabled"
     element3.className = "nav-link active"
     element4.className = "nav-link disabled"
-    loadVisualizations2();
+    loadVisualizations_high();
 };
 
 
@@ -59,29 +59,26 @@ window.onload = function() {
 
     var currentUrl = window.location.href;
     var tab = new URL(currentUrl).searchParams.get("tab");
-    console.log(currentUrl, " \n", tab);
     if (tab === null || tab.toLowerCase() === "most-ratings") {
       element2.className = "nav-link active"
       element3.className = "nav-link disabled"
       element4.className = "nav-link disabled"
-      loadVisualizations();
-      loadVisualizations2();
+      loadVisualizations_most();
     } else {
       element2.className = "nav-link disabled"
       element3.className = "nav-link active"
       element4.className = "nav-link disabled"
-      loadVisualizations2();
-      loadVisualizations();
-      console.log("hello");
+      loadVisualizations_high();
     }
 };
 
 var top_10_ratings_data;
 
-function loadVisualizations() {
-  var fileName = "./data/Top10_data_processing/" + default_category + "/processed_data";
-  var avgRatings = fileName + "/top10_avg_ratings.json";
+function loadVisualizations_most() {
+  var fileName = "./data/top10_data/" + default_category + "/processed_data";
   var mostRatings = fileName + "/top10_most_ratings.json";
+  $("#tab1").css("display", "flex");
+  $("#tab2").css("display", "none");
   d3.json(mostRatings, function(error, data) {
       if (error) {
           d3.select(".hello").text("error happended");
@@ -89,24 +86,33 @@ function loadVisualizations() {
       }
       top_10_ratings_data = data;
       var month_data = data[default_month];
-      var output = [], item;
+      var output_ratings = [], item;
+      var output_num_ratings = [];
       for (var type in month_data) {
+          var item_rating = {}
+
+          item_rating.id = type;
+          item_rating.js_value = month_data[type];
+          item_rating.value = month_data[type]['avg_ratings'];
+          output_ratings.push(item_rating);
+
           item = {};
           item.id = type;
           item.js_value = month_data[type];
           item.value = month_data[type]['num_ratings'];
-          output.push(item);
+          output_num_ratings.push(item);
       }
-      console.log(output);
-      barChartRatings(output, "#most-10-ratings","id");
+      barChartRatings(output_num_ratings, "#most-10-ratings","id", "No of Reviews");
+      barChartRatings(output_ratings, "#top-10-ratings","id", "Ratings");
   });
 }
 
 
-function loadVisualizations2() {
-  var fileName = "./data/Top10_data_processing/" + default_category + "/processed_data";
+function loadVisualizations_high() {
+  $("#tab1").css("display", "none");
+  $("#tab2").css("display", "flex");
+  var fileName = "./data/top10_data/" + default_category + "/processed_data";
   var avgRatings = fileName + "/top10_avg_ratings.json";
-  var mostRatings = fileName + "/top10_most_ratings.json";
   d3.json(avgRatings, function(error, data) {
       if (error) {
           d3.select(".hello").text("error happended");
@@ -114,48 +120,55 @@ function loadVisualizations2() {
       }
       top_10_ratings_data = data;
       var month_data = data[default_month];
-      var output = [], item;
+      var output_ratings = [], item;
+      var output_num_ratings = [];
       for (var type in month_data) {
+          var item_rating = {}
+
+          item_rating.id = type;
+          item_rating.js_value = month_data[type];
+          item_rating.value = month_data[type]['avg_ratings'];
+          output_ratings.push(item_rating);
+
           item = {};
           item.id = type;
           item.js_value = month_data[type];
-          item.value = month_data[type]['avg_ratings'];
-          output.push(item);
+          item.value = month_data[type]['num_ratings'];
+          output_num_ratings.push(item);
       }
-      console.log(output);
-      barChartRatings(output, "#top-10-ratings","id");
+      barChartRatings(output_num_ratings, "#most-10-ratings1","id", "No of Reviews");
+      barChartRatings(output_ratings, "#top-10-ratings1","id", "Ratings");
   });
 }
 
 function loadViz(value){
   default_month = value;
   var month_data = top_10_ratings_data[default_month];
-  var output = [], item;
-  for (var type in month_data) {
-      item = {};
-      item.id = type;
-      item.js_value = month_data[type];
-      item.value = month_data[type]['avg_ratings'];
-      output.push(item);
+  var currentUrl = window.location.href;
+  var tab = new URL(currentUrl).searchParams.get("tab");
+  if (tab === null || tab.toLowerCase() === "most-ratings") {
+    loadVisualizations_most();
+  } else {
+    loadVisualizations_high();
   }
-  console.log(output);
-  barChartRatings(output, "#top-10-ratings","id");
-
 }
 
 function loadVizByCategory(value){
   console.log(value);
   default_category = value;
-  default_month = "Jan";
-  console.log(document.getElementById("selectCategory"));
-
-  loadVisualizations();
+  var currentUrl = window.location.href;
+  var tab = new URL(currentUrl).searchParams.get("tab");
+  if (tab === null || tab.toLowerCase() === "most-ratings") {
+    loadVisualizations_most();
+  } else {
+    loadVisualizations_high();
+  }
 }
 
 
 
 
-function barChartRatings(data, className, type) {
+function barChartRatings(data, className, type, yAxisTitle) {
     var margin = {top: 20, bottom: 70, left: 40, right: 20};
     var width = 400;
     var height = 400;
@@ -169,7 +182,7 @@ function barChartRatings(data, className, type) {
 
     var xScale = d3.scaleBand()
                 .rangeRound([0, width-margin.left])
-                .padding(0.1).domain(data.map(function (d) {
+                .padding(0.2).domain(data.map(function (d) {
                     return d[type];
                 }));
 
@@ -196,6 +209,24 @@ function barChartRatings(data, className, type) {
         .attr("font-family", "serif")
         .attr("transform", "rotate(-45)translate(-30,-15)");
 
+    svg.append("text")
+        .attr("x", (height - margin.bottom) - 120)
+        .attr("y", 65 + (height - margin.bottom))
+        .attr("text-anchor", "middle")
+        .attr("fill", "black")
+        .style("font-size", "20px")
+        .style("font-family", "serif")
+        .text("Product ID");
+
+    svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - 5)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text(yAxisTitle);
+
+
     svg.append("g")
         .attr("transform", "translate(" + margin.left + ","+ (0 - margin.bottom) +")")
         .call(yAxis)
@@ -210,16 +241,6 @@ function barChartRatings(data, className, type) {
         .attr("font-family", "serif")
         .text("Freq");
 
-    svg.append("text")
-        .attr("x", (width / 2))
-        .attr("y", 0 + (margin.top))
-        .attr("text-anchor", "middle")
-        .attr("fill", "navajowhite")
-        .style("font-size", "20px")
-        .style("font-family", "serif")
-        .style("text-decoration", "underline");
-
-
 
     svg.selectAll(".bar")
         .data(data)
@@ -233,19 +254,15 @@ function barChartRatings(data, className, type) {
         })
         .on("mouseover", function(d){
             d3.select(this)
-            	.attr("fill", "navajowhite");
-            tooltip.html(d.js_value.title + '<br/>' + parseInt(d.value))
-                //.html("<span>" + d[type] + " ( " + parseInt(d.value) + " ) " + "</span>")
+            	.style("fill", "navajowhite");
+            tooltip.html(d.js_value.title + '<br/>' + parseInt(d.value));
             tooltip.style("top", (d3.event.pageY + 34) + "px").style("left", (d3.event.pageX - 30) + "px").style("display", "block").style("opacity", "1");
         })
         .on("mouseout", function () {
             d3.select(this)
             	.style("fill", "steelblue");
             tooltip.style("opacity", 0);
-
         })
-
-
         .attr("width", xScale.bandwidth())
         .attr("height", function (d) {
             return height - yScale(Number(d.value));

@@ -3,7 +3,6 @@ function barChart(data, className, type, CatName) {
     var margin = {top: 20, bottom: 70, left: 70, right: 20};
     var width = 600;
     var height = 350;
-    console.log(data);
     var svg = d3.select(className)
         .attr('height', height )
         .attr('width', width )
@@ -56,9 +55,9 @@ function barChart(data, className, type, CatName) {
 
     svg.append("text")
         .attr("x", (width / 2))
-        .attr("y", 0 + (margin.top))
+        .attr("y", (height) - 10)
         .attr("text-anchor", "middle")
-        .attr("fill", "navajowhite")
+        .attr("fill", "black")
         .style("font-size", "20px")
         .style("font-family", "serif")
         .style("text-decoration", "underline")
@@ -78,7 +77,7 @@ function barChart(data, className, type, CatName) {
         .on("mouseover", function(d){
             console.log("tool", d[type])
             d3.select(this)
-            	.attr("fill", "navajowhite");
+            	.style("fill", "navajowhite");
             tooltip.html(d[type] + '<br/>' + parseInt(d.value))
                 //.html("<span>" + d[type] + " ( " + parseInt(d.value) + " ) " + "</span>")
             tooltip.style("top", (d3.event.pageY + 34) + "px").style("left", (d3.event.pageX - 30) + "px").style("display", "block").style("opacity", "1");
@@ -89,8 +88,6 @@ function barChart(data, className, type, CatName) {
             tooltip.style("opacity", 0);
 
         })
-
-
         .attr("width", xScale.bandwidth())
         .attr("height", function (d) {
             return height - yScale(Number(d.value));

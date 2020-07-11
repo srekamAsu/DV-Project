@@ -29,10 +29,10 @@
                      <a id="most-sells" href="#">Most Sells Product       </a>
                   </li> -->
           <li class="nav-item">
-            <a id="most-ratings" href="?tab=most-ratings">Most Ratings Product </a>
+            <a id="most-ratings" href="?tab=most-ratings">Most Reviewed Products </a>
           </li>
           <li class="nav-item">
-            <a id="top-ratings" href="?tab=top-ratings">Top Ratings Product </a>
+            <a id="top-ratings" href="?tab=top-ratings">Highest Rated Products </a>
           </li>
           <li>
             <a id="overall" href="overall.html">Overall</a>
@@ -46,27 +46,49 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <select id="selectMonth" onchange="loadViz(this.value)">
+        <select id="selectMonth" style="width:45%; margin-left:50px" onchange="loadViz(this.value)">
           <option id="default_month_option">Choose a month</option>
         </select>
       </div>
       <div class="col">
-        <select id="selectCategory" onchange="loadVizByCategory(this.value)">
+        <select id="selectCategory" style="width:50%; margin-left:50px" onchange="loadVizByCategory(this.value)">
           <option id="default_category_option">Choose a category</option>
         </select>
       </div>
     </div>
   </div>
-    <br>
-    <br>
+  <br>
+  <br>
   <div class="container">
-    <div class="row">
-        <div class="col tops-graphs">
-          <svg id="top-10-ratings"></svg>
-      </div>
+    <div class="row" id="tab1">
       <div class="col sells-graphs">
+        <div class="" style="text-align:center;font-weight:bold">
+          Top 10 Most Reviewed Products
+        </div>
         <svg id="most-10-ratings"></svg>
       </div>
+      <div class="col tops-graphs">
+        <div class="" style="text-align:center;font-weight:bold">
+          Average Ratings For Top 10 Most Reviewed Products 
+        </div>
+        <svg id="top-10-ratings"></svg>
+      </div>
+
+    </div>
+    <div class="row" id="tab2">
+      <div class="col sells-graphs">
+        <div class="" style="text-align:center;font-weight:bold">
+          Top 10 Products With Highest Ratings
+        </div>
+        <svg id="top-10-ratings1"></svg>
+      </div>
+      <div class="col tops-graphs">
+        <div class="" style="text-align:center;font-weight:bold">
+          Number of Reviews for Top 10 Rated Products
+        </div>
+        <svg id="most-10-ratings1"></svg>
+      </div>
+
     </div>
   </div>
 
