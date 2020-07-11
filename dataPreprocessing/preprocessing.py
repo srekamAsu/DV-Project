@@ -58,7 +58,7 @@ def readMetaData(fileName, output_file, productReviews):
 #             print(data)
 #             if "main_cat" in data:
 #                 totalCategories.add(data["main_cat"])
-            if not "category" in data:
+            if not "category" in data and 'main_cat' in data:
                 data['category'] = [data['main_cat']]
             if ("category" in data) and (len(data['category']) > 0):
                 if brand != None and brand not in BrandMetaData:
@@ -228,16 +228,180 @@ def automotiveDataExtraction():
     print(len(productReviews), " is appliances prodcuts length")
     readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
 
+def fashionDataExtraction():
+    beautyFileName = "../RawData/AMAZON_FASHION.json.gz"
+    beautyMetaFileName = "../RawData/meta_AMAZON_FASHION.json.gz"
+    beautyOutputFile = "../data/fashion.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def electronicsDataExtraction():
+    beautyFileName = "../RawData/Electronics.json.gz"
+    beautyMetaFileName = "../RawData/meta_Electronics.json.gz"
+    beautyOutputFile = "../data/electronics.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def giftCardsDataExtraction():
+    beautyFileName = "../RawData/Gift_Cards.json.gz"
+    beautyMetaFileName = "../RawData/meta_Gift_Cards.json.gz"
+    beautyOutputFile = "../data/gift_cards.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def DigitalMusicDataExtraction():
+    beautyFileName = "../RawData/Digital_Music.json.gz"
+    beautyMetaFileName = "../RawData/meta_Digital_Music.json.gz"
+    beautyOutputFile = "../data/digital_music.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def groceryDataExtraction():
+    beautyFileName = "../RawData/Grocery_and_Gourmet_Food.json.gz"
+    beautyMetaFileName = "../RawData/meta_Grocery_and_Gourmet_Food.json.gz"
+    beautyOutputFile = "../data/grocery.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def homeDataExtraction():
+    beautyFileName = "../RawData/Home_and_Kitchen.json.gz"
+    beautyMetaFileName = "../RawData/meta_Home_and_Kitchen.json.gz"
+    beautyOutputFile = "../data/home.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def industrialDataExtraction():
+    beautyFileName = "../RawData/Industrial_and_Scientific.json.gz"
+    beautyMetaFileName = "../RawData/meta_Industrial_and_Scientific.json.gz"
+    beautyOutputFile = "../data/industrial.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def kindleDataExtraction():
+    beautyFileName = "../RawData/Kindle_Store.json.gz"
+    beautyMetaFileName = "../RawData/meta_Kindle_Store.json.gz"
+    beautyOutputFile = "../data/kindle.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def luxuryDataExtraction():
+    beautyFileName = "../RawData/Luxury_Beauty.json.gz"
+    beautyMetaFileName = "../RawData/meta_Luxury_Beauty.json.gz"
+    beautyOutputFile = "../data/luxury.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def magazineDataExtraction():
+    beautyFileName = "../RawData/Magazine_Subscriptions.json.gz"
+    beautyMetaFileName = "../RawData/meta_Magazine_Subscriptions.json.gz"
+    beautyOutputFile = "../data/magazine.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def musicalDataExtraction():
+    beautyFileName = "../RawData/Musical_Instruments.json.gz"
+    beautyMetaFileName = "../RawData/meta_Musical_Instruments.json.gz"
+    beautyOutputFile = "../data/musical.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def officeDataExtraction():
+    beautyFileName = "../RawData/Office_Products.json.gz"
+    beautyMetaFileName = "../RawData/meta_Office_Products.json.gz"
+    beautyOutputFile = "../data/office.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def patioDataExtraction():
+    beautyFileName = "../RawData/Patio_Lawn_and_Garden.json.gz"
+    beautyMetaFileName = "../RawData/meta_Patio_Lawn_and_Garden.json.gz"
+    beautyOutputFile = "../data/patio.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def petSuppliesDataExtraction():
+    beautyFileName = "../RawData/Pet_Supplies.json.gz"
+    beautyMetaFileName = "../RawData/meta_Pet_Supplies.json.gz"
+    beautyOutputFile = "../data/petSupplies.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def softwareDataExtraction():
+    beautyFileName = "../RawData/Software.json.gz"
+    beautyMetaFileName = "../RawData/meta_Software.json.gz"
+    beautyOutputFile = "../data/software.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def toolsDataExtraction():
+    beautyFileName = "../RawData/Tools_and_Home_Improvement.json.gz"
+    beautyMetaFileName = "../RawData/meta_Tools_and_Home_Improvement.json.gz"
+    beautyOutputFile = "../data/tools.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def toysDataExtraction():
+    beautyFileName = "../RawData/Toys_and_Games.json.gz"
+    beautyMetaFileName = "../RawData/meta_Toys_and_Games.json.gz"
+    beautyOutputFile = "../data/toys.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def videoGamesDataExtraction():
+    beautyFileName = "../RawData/Video_Games.json.gz"
+    beautyMetaFileName = "../RawData/meta_Video_Games.json.gz"
+    beautyOutputFile = "../data/video_games.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
+def pantryDataExtraction():
+    beautyFileName = "../RawData/Prime_Pantry.json.gz"
+    beautyMetaFileName = "../RawData/meta_Prime_Pantry.json.gz"
+    beautyOutputFile = "../data/prime_pantry.json"
+    productReviews = readData(beautyFileName)
+    print(len(productReviews), " is appliances prodcuts length")
+    readMetaData(beautyMetaFileName, beautyOutputFile, productReviews)
+
 def main():
-    # artsDataExtraction()
-    # print("hello ")
-    # booksDataExtraction()
-    # print("hello ")
-    cdsDataExtraction()
-    print("hello ")
-    mobilesDataExtraction()
-    print("hello ")
-    automotiveDataExtraction()
+    toolsDataExtraction()
+    toysDataExtraction()
+    videoGamesDataExtraction()
+    pantryDataExtraction()
+    # officeDataExtraction()
+    # patioDataExtraction()
+    # petSuppliesDataExtraction()
+    # softwareDataExtraction()
+    # fashionDataExtraction()
+    # electronicsDataExtraction()
+    # giftCardsDataExtraction()
+    # DigitalMusicDataExtraction()
+    # groceryDataExtraction()
+    # homeDataExtraction()
+    # industrialDataExtraction()
+    # kindleDataExtraction()
+    # luxuryDataExtraction()
+    # magazineDataExtraction()
+    # musicalDataExtraction()
+
+
 
 
 if __name__ == "__main__":
