@@ -14,7 +14,7 @@ var categoryToFilename = {"All_Beauty" : "data/beauty.json", "Automotive" : "dat
                          "Gift_Cards" : "data/gift_cards.json", "Kindle_Store" : "data/kindle.json", "Musical_Instruments" : "data/musical.json",
                          "Prime_Pantry" : "data/prime_pantry.json", "Toys_and_Games"  : "data/toys.json"};
 
-var categories= ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "AMAZON_FASHION", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
+var categories= ["All_Beauty", "Automotive", "Clothing_Shoes_and_Jewelry", "Grocery_and_Gourmet_Food", "Luxury_Beauty", "Office_Products", "Software", "Video_Games", "Digital_Music", "Home_and_Kitchen", "Magazine_Subscriptions", "Patio_Lawn_and_Garden", "Sports_and_Outdoors", "Appliances", "CDs_and_Vinyl", "Electronics", "Industrial_and_Scientific", "Movies_and_TV", "Pet_Supplies", "Tools_and_Home_Improvement", "Arts_Crafts_and_Sewing", "Cell_Phones_and_Accessories", "Gift_Cards", "Kindle_Store", "Musical_Instruments", "Prime_Pantry", "Toys_and_Games"]
 var defalutCategory = "Sports_and_Outdoors";
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var tooltip = d3.select("body")
